@@ -118,26 +118,9 @@ int main(int argc, char** argv) {
     moveit::planning_interface::MoveGroupInterface gripper_group(move_group_node, GRIPPER_GROUP);
     moveit::planning_interface::PlanningSceneInterface planning_scene_interface;
     std::vector<moveit_msgs::msg::CollisionObject> collision_objects1,collision_objects3,collision_objects2;
-    //FMTk会规划失败 BFMTk就可以
-    //move_group.setPlannerId("BFMTkConfigDefault");
 
     move_group.setPlannerId("BFPIECEkConfigDefault");
     //可以
-
-    //move_group.setPlannerId("BiESTkConfigDefault");
-	//可以
-
-    //move_group.setPlannerId("BiTRRTkConfigDefault");
-	//可以
-
-    //move_group.setPlannerId("PRMstarkConfigDefault");
-	//可以
-//
-//    move_group.setPlannerId("SPARStwokConfigDefault");
-	//可以 但是要规划蛮久
-
-    // move_group.setPlannerId("FMTkConfigDefault");
-    //move_group.setPlannerId("BFMTkConfigDefault");
     move_group.setMaxVelocityScalingFactor(1);
 
     // ---- 添加壳子障碍物 ----

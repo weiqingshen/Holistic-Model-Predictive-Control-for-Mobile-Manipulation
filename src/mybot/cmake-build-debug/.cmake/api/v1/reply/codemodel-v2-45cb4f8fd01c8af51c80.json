@@ -1,0 +1,187 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-9cc55a2b7c46e1d15b3e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "mybot",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "BFMTk_base::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BFMTk_base-Debug-923cc4cff3e60edc9eed.json",
+					"name" : "BFMTk_base",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "BFPIECE_base::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BFPIECE_base-Debug-d656973fed1366bd75cc.json",
+					"name" : "BFPIECE_base",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "BiEST_base::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BiEST_base-Debug-462547f77b8106944c9b.json",
+					"name" : "BiEST_base",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "BiTRRT_base::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BiTRRT_base-Debug-7d7a57b5432af734f81d.json",
+					"name" : "BiTRRT_base",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "PRMstar_base::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-PRMstar_base-Debug-000047a9696bdb8e7605.json",
+					"name" : "PRMstar_base",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SPARStwo_base::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SPARStwo_base-Debug-4eab9cc8f97546a4cc29.json",
+					"name" : "SPARStwo_base",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dynamic_grasping::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dynamic_grasping-Debug-32b089e5c64c263a37ec.json",
+					"name" : "dynamic_grasping",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "move_trajectory_buffer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-move_trajectory_buffer-Debug-5fd2b5f4c5006ab6b131.json",
+					"name" : "move_trajectory_buffer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mybot_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mybot_uninstall-Debug-a37dbd5079cbc335af91.json",
+					"name" : "mybot_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "task1_hmpc::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-task1_hmpc-Debug-f3cda8892538900b21ce.json",
+					"name" : "task1_hmpc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "task2_hmpc::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-task2_hmpc-Debug-f2f7900d34047f0532c1.json",
+					"name" : "task2_hmpc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "task3_PRMstar::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-task3_PRMstar-Debug-78dec53b7241643ee21e.json",
+					"name" : "task3_PRMstar",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "task3_compare::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-task3_compare-Debug-2192c2a990bfd682e25a.json",
+					"name" : "task3_compare",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "task3_hmpc::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-task3_hmpc-Debug-f54a1f5f045bbbfde874.json",
+					"name" : "task3_hmpc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Debug-03ef3f88a568240cf89d.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/fins/github/hmpc/src/mybot/cmake-build-debug",
+		"source" : "/home/fins/github/hmpc/src/mybot"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

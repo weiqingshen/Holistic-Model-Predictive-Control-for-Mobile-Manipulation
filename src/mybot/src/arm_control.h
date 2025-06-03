@@ -7,7 +7,6 @@
 #include <moveit/move_group_interface/move_group_interface.h>
 #include <moveit/planning_scene_interface/planning_scene_interface.h>
 #include <shape_msgs/msg/solid_primitive.hpp>
-#include "Trajectory.hpp"
 #include <string>
 #include "std_msgs/msg/float32.hpp"
 #include <ament_index_cpp/get_package_share_directory.hpp>
@@ -121,18 +120,10 @@ public:
                       moveit::planning_interface::PlanningSceneInterface& planning_scene_interface,
                       moveit::planning_interface::MoveGroupInterface& gripper_group);
 
-    // 执行动作
-    void executeAction(Object& object, TargetPose& target_pose, GraspPose& grasp_pose, const std::string& trajectory_name = "") ;
-    void moveAction(Object& object, GraspPose& grasp_pose, const std::string& trajectory_name = "") ;
-    void placeAction( Object& object,TargetPose& target_pose,GraspPose& grasp_pose) ;
-    // void executeAction_trajectory(Object& object, TargetPose& target_pose,GraspPose& grasp_pose, const std::string& trajectory_name1 = "",const std::string& trajectory_name2 = "") ;
-    void executeAction_trajectory(Object& object, TargetPose& target_pose,GraspPose& grasp_pose, const std::string& trajectory_name1 = "",const std::string& trajectory_name2 = "",const std::string& trajectory_name3 = "",const std::string& trajectory_name4 = "") ;
     void execution_hmpc(Object& object, TargetPose& target_pose,GraspPose& grasp_pose);
     void executeAction_mpc_trajectory(Object& object, TargetPose& target_pose,GraspPose& grasp_pose) ;
     void execute_contrast(Object& object, TargetPose& target_pose,GraspPose& grasp_pose) ;
     void execute_dynamic(Object& object,GraspPose& grasp_pose) ;
-    void graspAction_trajectory(Object& object, TargetPose& target_pose,GraspPose& grasp_pose, const std::string& trajectory_name1 = "",const std::string& trajectory_name2 = "",const std::string& trajectory_name3 = "",const std::string& trajectory_name4 = "") ;
-    void calculateTransformFromBaseLinkToWorld(geometry_msgs::msg::Pose& target_pose);
     void dynamic_grasping(Object& object, TargetPose& target_pose,GraspPose& grasp_pose,bool isFixed=false);
     bool received_valid_pose;  // 标记是否接收到有效的位置信息
 private:
@@ -147,7 +138,6 @@ private:
     std::shared_ptr<planning_scene_monitor::PlanningSceneMonitor> planning_scene_monitor_;
 
     bool isupdate_visual = false;
-    Trajectory trajectory_;  // 成员变量，定义一个 TrajectoryInterpolator 实例
     bool isupdate=false;
 
     void closeGripper();
@@ -155,10 +145,8 @@ private:
     void openGripper_max();
     void attachObject(Object& object);
     void detachObject(Object& object);
-    void moveToPose(const geometry_msgs::msg::Pose& pose);
     void moveToPose_compare(const geometry_msgs::msg::Pose& pose);
     bool mpc_planning(const geometry_msgs::msg::Pose& pose,bool cylinder);
-    bool mpc_planning_task2(const geometry_msgs::msg::Pose& pose);
     void mpc_planning_follow(Object& object,const geometry_msgs::msg::Pose& pose);
     void dynamic_mpc_planning(const geometry_msgs::msg::Pose& pose,bool isFixed=false);
     void execute_trajectory();

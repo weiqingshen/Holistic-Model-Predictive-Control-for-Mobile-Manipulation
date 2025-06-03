@@ -1,4 +1,4 @@
-/home/fins/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/fins/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -G Ninja -S /home/fins/myrobot_move/src/mybot -B /home/fins/myrobot_move/src/mybot/cmake-build-debug
+/home/fins/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/fins/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -G Ninja -S /home/fins/github/hmpc/src/mybot -B /home/fins/github/hmpc/src/mybot/cmake-build-debug
 -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
 -- Found moveit_core: 2.5.5 (/home/fins/Workspace/moveit2_ws/install/moveit_core/share/moveit_core/cmake)
 -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread
@@ -36,6 +36,6 @@
 -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
 -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
 -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
--- Configuring done (3.8s)
--- Generating done (1.5s)
--- Build files have been written to: /home/fins/myrobot_move/src/mybot/cmake-build-debug
+-- Configuring done (2.7s)
+-- Generating done (0.3s)
+-- Build files have been written to: /home/fins/github/hmpc/src/mybot/cmake-build-debug

@@ -157,50 +157,6 @@ class JointStateRecorder(Node):
                 print(f"\n平均目标偏差: {avg_diff:.4f} 米")
         else:
             print("\n末端执行器轨迹数据不足，无法绘图。")
-    # def plot_data(self):
-    #     if len(self.ee_positions) > 1:
-    #         ee_x = [pos[0] for pos in self.ee_positions]
-    #         ee_y = [pos[1] for pos in self.ee_positions]
-    #
-    #         target_x = [pos[0] for pos in self.target_positions]
-    #         target_y = [pos[1] for pos in self.target_positions]
-    #
-    #         output_dir = 'output'
-    #         os.makedirs(output_dir, exist_ok=True)
-    #
-    #         # 图1：XY轨迹
-    #         plt.figure()
-    #         # plt.plot(ee_x, ee_y, label='End Effector Path', marker='--', color='orange')
-    #         plt.plot(ee_x, ee_y, label='End Effector Path', linestyle='-', color='orangered',linewidth=3.5)
-    #         if target_x and target_y:
-    #             plt.plot(target_x, target_y, label='Target Path', linestyle='-', color='black',linewidth=3.5)
-    #         plt.xlabel('X Position (m)')
-    #         plt.ylabel('Y Position (m)')
-    #         # plt.title('End-Effector and Target Trajectory')
-    #         plt.grid(True)
-    #         plt.axis('equal')
-    #         plt.legend(loc='upper right')
-    #         # plt.show()
-    #
-    #         # 保存图像
-    #         save_path = os.path.join(output_dir, 'trajectory_plot.png')
-    #         plt.savefig(save_path, dpi=300)
-    #         plt.show()
-    #
-    #         # 图2：目标偏差随时间变化
-    #         if self.target_differences:
-    #             plt.figure()
-    #             plt.plot(range(len(self.target_differences)), self.target_differences)
-    #             plt.xlabel('Time Step')
-    #             plt.ylabel('Position Error (m)')
-    #             plt.title('Target Deviation Over Time')
-    #             plt.grid(True)
-    #             plt.show()
-    #
-    #             avg_diff = sum(self.target_differences) / len(self.target_differences)
-    #             print(f"\n平均目标偏差: {avg_diff:.4f} 米")
-    #     else:
-    #         print("\n末端执行器轨迹数据不足，无法绘图。")
 
     def run(self):
         rclpy.spin(self)
