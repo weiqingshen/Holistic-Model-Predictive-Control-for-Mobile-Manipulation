@@ -1,0 +1,12 @@
+casadi==3.6.7
+numpy
+scipy
+sympy
+pybullet
+rclpy
+geometry-msgs
+sensor-msgs
+trajectory-msgs
+tf2-py
+xacro
+
