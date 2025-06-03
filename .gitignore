@@ -1,0 +1,44 @@
+	# ROS2 build artifacts
+build/
+install/
+log/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# C++
+*.o
+*.so
+*.a
+*.dylib
+*.exe
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Documentation build
+*.pdf
+*.aux
+*.log
+*.toc
+
+# Data files
+data/
+datasets/
+*.bag
+*.rosbag
+
+# Experimental results
+results/
+experiments/
+plots/
+
+# OS
+.DS_Store
+Thumbs.db

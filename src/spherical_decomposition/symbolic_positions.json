@@ -1,0 +1,366 @@
+[
+  {
+    "link_a": "base_link",
+    "link_b": "link2",
+    "sphere_a_world_position": [
+      "1.0*x - 0.00999999999999998*sin(theta) - 0.0299999999999999*cos(theta)",
+      "1.0*y - 0.0299999999999999*sin(theta) + 0.00999999999999998*cos(theta)",
+      "0.110000000000000"
+    ],
+    "sphere_b_world_position": [
+      "1.0*x - 0.0122040956979407*sin(q2)*sin(q1 + theta) - 0.0469999637154089*sin(q1 + theta)*cos(q2) - 0.0200000227122731*cos(q1 + theta)",
+      "1.0*y + 0.0122040956979407*sin(q2)*cos(q1 + theta) - 0.0200000227122731*sin(q1 + theta) + 0.0469999637154089*cos(q2)*cos(q1 + theta)",
+      "0.0469999637154089*sin(q2) - 0.0122040956979407*cos(q2) + 0.2211"
+    ]
+  },
+  {
+    "link_a": "base_link",
+    "link_b": "link3",
+    "sphere_a_world_position": [
+      "1.0*x - 0.04*sin(theta) - 0.1*cos(theta)",
+      "1.0*y - 0.1*sin(theta) + 0.04*cos(theta)",
+      "0.300000000000000"
+    ],
+    "sphere_b_world_position": [
+      "1.0*x + 0.22*sin(q2)*sin(q1 + theta) - 0.0155005646001008*sin(q1 + theta)*sin(q2 + q3) + 0.00800014657777416*sin(q1 + theta)*cos(q2 + q3) - 0.0285011394530966*cos(q1 + theta)",
+      "1.0*y - 0.22*sin(q2)*cos(q1 + theta) - 0.0285011394530966*sin(q1 + theta) + 0.0155005646001008*sin(q2 + q3)*cos(q1 + theta) - 0.00800014657777416*cos(q1 + theta)*cos(q2 + q3)",
+      "-0.00800014657777416*sin(q2 + q3) + 0.22*cos(q2) - 0.0155005646001008*cos(q2 + q3) + 0.2211"
+    ]
+  },
+  {
+    "link_a": "base_link",
+    "link_b": "link4",
+    "sphere_a_world_position": [
+      "1.0*x - 0.04*sin(theta) - 0.1*cos(theta)",
+      "1.0*y - 0.1*sin(theta) + 0.04*cos(theta)",
+      "0.260000000000000"
+    ],
+    "sphere_b_world_position": [
+      "1.0*x + 0.22*sin(q2)*sin(q1 + theta) + 0.0334953976085376*sin(q4)*sin(q1 + theta)*sin(q2 + q3) - 0.00840058668672045*sin(q4)*cos(q1 + theta) - 0.00840058668672045*sin(q1 + theta)*sin(q2 + q3)*cos(q4) - 0.0794998877261372*sin(q1 + theta)*cos(q2 + q3) - 0.0334953976085376*cos(q4)*cos(q1 + theta)",
+      "1.0*y - 0.22*sin(q2)*cos(q1 + theta) - 0.00840058668672045*sin(q4)*sin(q1 + theta) - 0.0334953976085376*sin(q4)*sin(q2 + q3)*cos(q1 + theta) - 0.0334953976085376*sin(q1 + theta)*cos(q4) + 0.00840058668672045*sin(q2 + q3)*cos(q4)*cos(q1 + theta) + 0.0794998877261372*cos(q1 + theta)*cos(q2 + q3)",
+      "0.0334953976085376*sin(q4)*cos(q2 + q3) + 0.0794998877261372*sin(q2 + q3) + 0.22*cos(q2) - 0.00840058668672045*cos(q4)*cos(q2 + q3) + 0.2211"
+    ]
+  },
+  {
+    "link_a": "base_link",
+    "link_b": "link5",
+    "sphere_a_world_position": [
+      "1.0*x - 0.07*sin(theta) + 0.03*cos(theta)",
+      "1.0*y + 0.03*sin(theta) + 0.07*cos(theta)",
+      "0.110000000000000"
+    ],
+    "sphere_b_world_position": [
+      "1.0*x + 0.22*sin(q2)*sin(q1 + theta) + 0.0129999123857113*sin(q4)*sin(q5)*cos(q1 + theta) - 0.0270014543833318*sin(q4)*sin(q1 + theta)*sin(q2 + q3) - 0.0304999992753748*sin(q4)*cos(q5)*cos(q1 + theta) + 0.0129999123857113*sin(q5)*sin(q1 + theta)*sin(q2 + q3)*cos(q4) + 0.0304999992753748*sin(q5)*sin(q1 + theta)*cos(q2 + q3) - 0.0304999992753748*sin(q1 + theta)*sin(q2 + q3)*cos(q4)*cos(q5) + 0.0129999123857113*sin(q1 + theta)*cos(q5)*cos(q2 + q3) - 0.1685*sin(q1 + theta)*cos(q2 + q3) + 0.0270014543833318*cos(q4)*cos(q1 + theta)",
+      "1.0*y - 0.22*sin(q2)*cos(q1 + theta) + 0.0129999123857113*sin(q4)*sin(q5)*sin(q1 + theta) - 0.0304999992753748*sin(q4)*sin(q1 + theta)*cos(q5) + 0.0270014543833318*sin(q4)*sin(q2 + q3)*cos(q1 + theta) - 0.0129999123857113*sin(q5)*sin(q2 + q3)*cos(q4)*cos(q1 + theta) - 0.0304999992753748*sin(q5)*cos(q1 + theta)*cos(q2 + q3) + 0.0270014543833318*sin(q1 + theta)*cos(q4) + 0.0304999992753748*sin(q2 + q3)*cos(q4)*cos(q5)*cos(q1 + theta) - 0.0129999123857113*cos(q5)*cos(q1 + theta)*cos(q2 + q3) + 0.1685*cos(q1 + theta)*cos(q2 + q3)",
+      "-0.0270014543833318*sin(q4)*cos(q2 + q3) - 0.0304999992753748*sin(q5)*sin(q2 + q3) + 0.0129999123857113*sin(q5)*cos(q4)*cos(q2 + q3) - 0.0129999123857113*sin(q2 + q3)*cos(q5) + 0.1685*sin(q2 + q3) + 0.22*cos(q2) - 0.0304999992753748*cos(q4)*cos(q5)*cos(q2 + q3) + 0.2211"
+    ]
+  },
+  {
+    "link_a": "base_link",
+    "link_b": "link6",
+    "sphere_a_world_position": [
+      "1.0*x - 0.0700000000000001*sin(theta) + 0.01*cos(theta)",
+      "1.0*y + 0.01*sin(theta) + 0.0700000000000001*cos(theta)",
+      "0.110000000000000"
+    ],
+    "sphere_b_world_position": [
+      "1.0*x + 0.0270504834443353*((sin(q4)*cos(q1 + theta) + sin(q1 + theta)*sin(q2 + q3)*cos(q4))*sin(q5) + sin(q1 + theta)*cos(q5)*cos(q2 + q3))*sin(q6) + 0.0130003668711277*((sin(q4)*cos(q1 + theta) + sin(q1 + theta)*sin(q2 + q3)*cos(q4))*sin(q5) + sin(q1 + theta)*cos(q5)*cos(q2 + q3))*cos(q6) - 0.0544999570634311*(sin(q4)*cos(q1 + theta) + sin(q1 + theta)*sin(q2 + q3)*cos(q4))*cos(q5) + 0.0130003668711277*(sin(q4)*sin(q1 + theta)*sin(q2 + q3) - cos(q4)*cos(q1 + theta))*sin(q6) - 0.0270504834443353*(sin(q4)*sin(q1 + theta)*sin(q2 + q3) - cos(q4)*cos(q1 + theta))*cos(q6) + 0.1685*sin(q2)*sin(q3)*sin(q1 + theta) + 0.22*sin(q2)*sin(q1 + theta) + 0.0544999570634311*sin(q5)*sin(q1 + theta)*cos(q2 + q3) - 0.1685*sin(q1 + theta)*cos(q2)*cos(q3)",
+      "1.0*y + 0.0270504834443353*((sin(q4)*sin(q1 + theta) - sin(q2 + q3)*cos(q4)*cos(q1 + theta))*sin(q5) - cos(q5)*cos(q1 + theta)*cos(q2 + q3))*sin(q6) + 0.0130003668711277*((sin(q4)*sin(q1 + theta) - sin(q2 + q3)*cos(q4)*cos(q1 + theta))*sin(q5) - cos(q5)*cos(q1 + theta)*cos(q2 + q3))*cos(q6) - 0.0544999570634311*(sin(q4)*sin(q1 + theta) - sin(q2 + q3)*cos(q4)*cos(q1 + theta))*cos(q5) - 0.0130003668711277*(sin(q4)*sin(q2 + q3)*cos(q1 + theta) + sin(q1 + theta)*cos(q4))*sin(q6) + 0.0270504834443353*(sin(q4)*sin(q2 + q3)*cos(q1 + theta) + sin(q1 + theta)*cos(q4))*cos(q6) - 0.1685*sin(q2)*sin(q3)*cos(q1 + theta) - 0.22*sin(q2)*cos(q1 + theta) - 0.0544999570634311*sin(q5)*cos(q1 + theta)*cos(q2 + q3) + 0.1685*cos(q2)*cos(q3)*cos(q1 + theta)",
+      "0.0130003668711277*sin(q4)*sin(q6)*cos(q2 + q3) - 0.0270504834443353*sin(q4)*cos(q6)*cos(q2 + q3) + 0.0270504834443353*sin(q5)*sin(q6)*cos(q4)*cos(q2 + q3) - 0.0544999570634311*sin(q5)*sin(q2 + q3) + 0.0130003668711277*sin(q5)*cos(q4)*cos(q6)*cos(q2 + q3) - 0.0270504834443353*sin(q6)*sin(q2 + q3)*cos(q5) - 0.0130003668711277*sin(q2 + q3)*cos(q5)*cos(q6) + 0.1685*sin(q2 + q3) + 0.22*cos(q2) - 0.0544999570634311*cos(q4)*cos(q5)*cos(q2 + q3) + 0.2211"
+    ]
+  },
+  {
+    "link_a": "base_link",
+    "link_b": "link_hand",
+    "sphere_a_world_position": [
+      "1.0*x - 0.0700000000000001*sin(theta) + 0.01*cos(theta)",
+      "1.0*y + 0.01*sin(theta) + 0.0700000000000001*cos(theta)",
+      "0.0500000000000000"
+    ],
+    "sphere_b_world_position": [
+      "1.0*x + 0.0657611754091672*((sin(q4)*cos(q1 + theta) + sin(q1 + theta)*sin(q2 + q3)*cos(q4))*sin(q5) + sin(q1 + theta)*cos(q5)*cos(q2 + q3))*sin(q6) + 0.0203761986339297*((sin(q4)*cos(q1 + theta) + sin(q1 + theta)*sin(q2 + q3)*cos(q4))*sin(q5) + sin(q1 + theta)*cos(q5)*cos(q2 + q3))*cos(q6) - 0.139491163049919*(sin(q4)*cos(q1 + theta) + sin(q1 + theta)*sin(q2 + q3)*cos(q4))*cos(q5) + 0.0203761986339297*(sin(q4)*sin(q1 + theta)*sin(q2 + q3) - cos(q4)*cos(q1 + theta))*sin(q6) - 0.0657611754091672*(sin(q4)*sin(q1 + theta)*sin(q2 + q3) - cos(q4)*cos(q1 + theta))*cos(q6) + 0.1685*sin(q2)*sin(q3)*sin(q1 + theta) + 0.22*sin(q2)*sin(q1 + theta) + 0.139491163049919*sin(q5)*sin(q1 + theta)*cos(q2 + q3) - 0.1685*sin(q1 + theta)*cos(q2)*cos(q3)",
+      "1.0*y + 0.0657611754091672*((sin(q4)*sin(q1 + theta) - sin(q2 + q3)*cos(q4)*cos(q1 + theta))*sin(q5) - cos(q5)*cos(q1 + theta)*cos(q2 + q3))*sin(q6) + 0.0203761986339297*((sin(q4)*sin(q1 + theta) - sin(q2 + q3)*cos(q4)*cos(q1 + theta))*sin(q5) - cos(q5)*cos(q1 + theta)*cos(q2 + q3))*cos(q6) - 0.139491163049919*(sin(q4)*sin(q1 + theta) - sin(q2 + q3)*cos(q4)*cos(q1 + theta))*cos(q5) - 0.0203761986339297*(sin(q4)*sin(q2 + q3)*cos(q1 + theta) + sin(q1 + theta)*cos(q4))*sin(q6) + 0.0657611754091672*(sin(q4)*sin(q2 + q3)*cos(q1 + theta) + sin(q1 + theta)*cos(q4))*cos(q6) - 0.1685*sin(q2)*sin(q3)*cos(q1 + theta) - 0.22*sin(q2)*cos(q1 + theta) - 0.139491163049919*sin(q5)*cos(q1 + theta)*cos(q2 + q3) + 0.1685*cos(q2)*cos(q3)*cos(q1 + theta)",
+      "0.0203761986339297*sin(q4)*sin(q6)*cos(q2 + q3) - 0.0657611754091672*sin(q4)*cos(q6)*cos(q2 + q3) + 0.0657611754091672*sin(q5)*sin(q6)*cos(q4)*cos(q2 + q3) - 0.139491163049919*sin(q5)*sin(q2 + q3) + 0.0203761986339297*sin(q5)*cos(q4)*cos(q6)*cos(q2 + q3) - 0.0657611754091672*sin(q6)*sin(q2 + q3)*cos(q5) - 0.0203761986339297*sin(q2 + q3)*cos(q5)*cos(q6) + 0.1685*sin(q2 + q3) + 0.22*cos(q2) - 0.139491163049919*cos(q4)*cos(q5)*cos(q2 + q3) + 0.2211"
+    ]
+  },
+  {
+    "link_a": "base_link",
+    "link_b": "link_right",
+    "sphere_a_world_position": [
+      "1.0*x - 0.0700000000000001*sin(theta) - 0.0299999999999999*cos(theta)",
+      "1.0*y - 0.0299999999999999*sin(theta) + 0.0700000000000001*cos(theta)",
+      "0.0300000000000000"
+    ],
+    "sphere_b_world_position": [
+      "0.5*g*(-((sin(q4)*cos(q1 + theta) + sin(q1 + theta)*sin(q2 + q3)*cos(q4))*sin(q5) + sin(q1 + theta)*cos(q5)*cos(q2 + q3))*sin(q6) + (sin(q4)*sin(q1 + theta)*sin(q2 + q3) - cos(q4)*cos(q1 + theta))*cos(q6)) + 1.0*x - 0.0126409101883273*((sin(q4)*cos(q1 + theta) + sin(q1 + theta)*sin(q2 + q3)*cos(q4))*sin(q5) + sin(q1 + theta)*cos(q5)*cos(q2 + q3))*sin(q6) + 0.0203020653024555*((sin(q4)*cos(q1 + theta) + sin(q1 + theta)*sin(q2 + q3)*cos(q4))*sin(q5) + sin(q1 + theta)*cos(q5)*cos(q2 + q3))*cos(q6) - 0.166489939192749*(sin(q4)*cos(q1 + theta) + sin(q1 + theta)*sin(q2 + q3)*cos(q4))*cos(q5) + 0.0203020653024555*(sin(q4)*sin(q1 + theta)*sin(q2 + q3) - cos(q4)*cos(q1 + theta))*sin(q6) + 0.0126409101883273*(sin(q4)*sin(q1 + theta)*sin(q2 + q3) - cos(q4)*cos(q1 + theta))*cos(q6) + 0.1685*sin(q2)*sin(q3)*sin(q1 + theta) + 0.22*sin(q2)*sin(q1 + theta) + 0.166489939192749*sin(q5)*sin(q1 + theta)*cos(q2 + q3) - 0.1685*sin(q1 + theta)*cos(q2)*cos(q3)",
+      "-0.5*g*(((sin(q4)*sin(q1 + theta) - sin(q2 + q3)*cos(q4)*cos(q1 + theta))*sin(q5) - cos(q5)*cos(q1 + theta)*cos(q2 + q3))*sin(q6) + (sin(q4)*sin(q2 + q3)*cos(q1 + theta) + sin(q1 + theta)*cos(q4))*cos(q6)) + 1.0*y - 0.0126409101883273*((sin(q4)*sin(q1 + theta) - sin(q2 + q3)*cos(q4)*cos(q1 + theta))*sin(q5) - cos(q5)*cos(q1 + theta)*cos(q2 + q3))*sin(q6) + 0.0203020653024555*((sin(q4)*sin(q1 + theta) - sin(q2 + q3)*cos(q4)*cos(q1 + theta))*sin(q5) - cos(q5)*cos(q1 + theta)*cos(q2 + q3))*cos(q6) - 0.166489939192749*(sin(q4)*sin(q1 + theta) - sin(q2 + q3)*cos(q4)*cos(q1 + theta))*cos(q5) - 0.0203020653024555*(sin(q4)*sin(q2 + q3)*cos(q1 + theta) + sin(q1 + theta)*cos(q4))*sin(q6) - 0.0126409101883273*(sin(q4)*sin(q2 + q3)*cos(q1 + theta) + sin(q1 + theta)*cos(q4))*cos(q6) - 0.1685*sin(q2)*sin(q3)*cos(q1 + theta) - 0.22*sin(q2)*cos(q1 + theta) - 0.166489939192749*sin(q5)*cos(q1 + theta)*cos(q2 + q3) + 0.1685*cos(q2)*cos(q3)*cos(q1 + theta)",
+      "0.5*g*((-sin(q5)*cos(q4)*cos(q2 + q3) + sin(q2 + q3)*cos(q5))*sin(q6) + sin(q4)*cos(q6)*cos(q2 + q3)) + 0.0126409101883273*(-sin(q5)*cos(q4)*cos(q2 + q3) + sin(q2 + q3)*cos(q5))*sin(q6) - 0.0203020653024555*(-sin(q5)*cos(q4)*cos(q2 + q3) + sin(q2 + q3)*cos(q5))*cos(q6) + 0.1685*sin(q2)*cos(q3) + 0.1685*sin(q3)*cos(q2) + 0.0203020653024555*sin(q4)*sin(q6)*cos(q2 + q3) + 0.0126409101883273*sin(q4)*cos(q6)*cos(q2 + q3) - 0.166489939192749*sin(q5)*sin(q2 + q3) + 0.22*cos(q2) - 0.166489939192749*cos(q4)*cos(q5)*cos(q2 + q3) + 0.2211"
+    ]
+  },
+  {
+    "link_a": "base_link",
+    "link_b": "link_left",
+    "sphere_a_world_position": [
+      "1.0*x - 0.07*sin(theta) + 0.03*cos(theta)",
+      "1.0*y + 0.03*sin(theta) + 0.07*cos(theta)",
+      "0.0300000000000000"
+    ],
+    "sphere_b_world_position": [
+      "-0.5*g*(-((sin(q4)*cos(q1 + theta) + sin(q1 + theta)*sin(q2 + q3)*cos(q4))*sin(q5) + sin(q1 + theta)*cos(q5)*cos(q2 + q3))*sin(q6) + (sin(q4)*sin(q1 + theta)*sin(q2 + q3) - cos(q4)*cos(q1 + theta))*cos(q6)) + 1.0*x + 0.0719133305645539*((sin(q4)*cos(q1 + theta) + sin(q1 + theta)*sin(q2 + q3)*cos(q4))*sin(q5) + sin(q1 + theta)*cos(q5)*cos(q2 + q3))*sin(q6) + 0.0122203765341217*((sin(q4)*cos(q1 + theta) + sin(q1 + theta)*sin(q2 + q3)*cos(q4))*sin(q5) + sin(q1 + theta)*cos(q5)*cos(q2 + q3))*cos(q6) - 0.16649038274975*(sin(q4)*cos(q1 + theta) + sin(q1 + theta)*sin(q2 + q3)*cos(q4))*cos(q5) + 0.0122203765341217*(sin(q4)*sin(q1 + theta)*sin(q2 + q3) - cos(q4)*cos(q1 + theta))*sin(q6) - 0.0719133305645539*(sin(q4)*sin(q1 + theta)*sin(q2 + q3) - cos(q4)*cos(q1 + theta))*cos(q6) + 0.1685*sin(q2)*sin(q3)*sin(q1 + theta) + 0.22*sin(q2)*sin(q1 + theta) + 0.16649038274975*sin(q5)*sin(q1 + theta)*cos(q2 + q3) - 0.1685*sin(q1 + theta)*cos(q2)*cos(q3)",
+      "0.5*g*(((sin(q4)*sin(q1 + theta) - sin(q2 + q3)*cos(q4)*cos(q1 + theta))*sin(q5) - cos(q5)*cos(q1 + theta)*cos(q2 + q3))*sin(q6) + (sin(q4)*sin(q2 + q3)*cos(q1 + theta) + sin(q1 + theta)*cos(q4))*cos(q6)) + 1.0*y + 0.0719133305645539*((sin(q4)*sin(q1 + theta) - sin(q2 + q3)*cos(q4)*cos(q1 + theta))*sin(q5) - cos(q5)*cos(q1 + theta)*cos(q2 + q3))*sin(q6) + 0.0122203765341217*((sin(q4)*sin(q1 + theta) - sin(q2 + q3)*cos(q4)*cos(q1 + theta))*sin(q5) - cos(q5)*cos(q1 + theta)*cos(q2 + q3))*cos(q6) - 0.16649038274975*(sin(q4)*sin(q1 + theta) - sin(q2 + q3)*cos(q4)*cos(q1 + theta))*cos(q5) - 0.0122203765341217*(sin(q4)*sin(q2 + q3)*cos(q1 + theta) + sin(q1 + theta)*cos(q4))*sin(q6) + 0.0719133305645539*(sin(q4)*sin(q2 + q3)*cos(q1 + theta) + sin(q1 + theta)*cos(q4))*cos(q6) - 0.1685*sin(q2)*sin(q3)*cos(q1 + theta) - 0.22*sin(q2)*cos(q1 + theta) - 0.16649038274975*sin(q5)*cos(q1 + theta)*cos(q2 + q3) + 0.1685*cos(q2)*cos(q3)*cos(q1 + theta)",
+      "0.5*g*((sin(q5)*cos(q4)*cos(q2 + q3) - sin(q2 + q3)*cos(q5))*sin(q6) - sin(q4)*cos(q6)*cos(q2 + q3)) + 0.0719133305645539*(sin(q5)*cos(q4)*cos(q2 + q3) - sin(q2 + q3)*cos(q5))*sin(q6) + 0.0122203765341217*(sin(q5)*cos(q4)*cos(q2 + q3) - sin(q2 + q3)*cos(q5))*cos(q6) + 0.1685*sin(q2)*cos(q3) + 0.1685*sin(q3)*cos(q2) + 0.0122203765341217*sin(q4)*sin(q6)*cos(q2 + q3) - 0.0719133305645539*sin(q4)*cos(q6)*cos(q2 + q3) - 0.16649038274975*sin(q5)*sin(q2 + q3) + 0.22*cos(q2) - 0.16649038274975*cos(q4)*cos(q5)*cos(q2 + q3) + 0.2211"
+    ]
+  },
+  {
+    "link_a": "link1",
+    "link_b": "link4",
+    "sphere_a_world_position": [
+      "1.0*x - 0.0575000002682209*sin(q1 + theta) - 0.0320000003576278*cos(q1 + theta)",
+      "1.0*y - 0.0320000003576278*sin(q1 + theta) + 0.0575000002682209*cos(q1 + theta)",
+      "0.242399999731779"
+    ],
+    "sphere_b_world_position": [
+      "1.0*x + 0.22*sin(q2)*sin(q1 + theta) + 0.0334953976085376*sin(q4)*sin(q1 + theta)*sin(q2 + q3) - 0.00840058668672045*sin(q4)*cos(q1 + theta) - 0.00840058668672045*sin(q1 + theta)*sin(q2 + q3)*cos(q4) - 0.0794998877261372*sin(q1 + theta)*cos(q2 + q3) - 0.0334953976085376*cos(q4)*cos(q1 + theta)",
+      "1.0*y - 0.22*sin(q2)*cos(q1 + theta) - 0.00840058668672045*sin(q4)*sin(q1 + theta) - 0.0334953976085376*sin(q4)*sin(q2 + q3)*cos(q1 + theta) - 0.0334953976085376*sin(q1 + theta)*cos(q4) + 0.00840058668672045*sin(q2 + q3)*cos(q4)*cos(q1 + theta) + 0.0794998877261372*cos(q1 + theta)*cos(q2 + q3)",
+      "0.0334953976085376*sin(q4)*cos(q2 + q3) + 0.0794998877261372*sin(q2 + q3) + 0.22*cos(q2) - 0.00840058668672045*cos(q4)*cos(q2 + q3) + 0.2211"
+    ]
+  },
+  {
+    "link_a": "link1",
+    "link_b": "link5",
+    "sphere_a_world_position": [
+      "1.0*x - 0.0575000002682209*sin(q1 + theta) + 0.0279999996423721*cos(q1 + theta)",
+      "1.0*y + 0.0279999996423721*sin(q1 + theta) + 0.0575000002682209*cos(q1 + theta)",
+      "0.202399999731779"
+    ],
+    "sphere_b_world_position": [
+      "1.0*x + 0.22*sin(q2)*sin(q1 + theta) + 0.0129999123851717*sin(q4)*sin(q5)*cos(q1 + theta) - 0.0270011605263839*sin(q4)*sin(q1 + theta)*sin(q2 + q3) + 0.00950000072354573*sin(q4)*cos(q5)*cos(q1 + theta) + 0.0129999123851717*sin(q5)*sin(q1 + theta)*sin(q2 + q3)*cos(q4) - 0.00950000072354573*sin(q5)*sin(q1 + theta)*cos(q2 + q3) + 0.00950000072354573*sin(q1 + theta)*sin(q2 + q3)*cos(q4)*cos(q5) + 0.0129999123851717*sin(q1 + theta)*cos(q5)*cos(q2 + q3) - 0.1685*sin(q1 + theta)*cos(q2 + q3) + 0.0270011605263839*cos(q4)*cos(q1 + theta)",
+      "1.0*y - 0.22*sin(q2)*cos(q1 + theta) + 0.0129999123851717*sin(q4)*sin(q5)*sin(q1 + theta) + 0.00950000072354573*sin(q4)*sin(q1 + theta)*cos(q5) + 0.0270011605263839*sin(q4)*sin(q2 + q3)*cos(q1 + theta) - 0.0129999123851717*sin(q5)*sin(q2 + q3)*cos(q4)*cos(q1 + theta) + 0.00950000072354573*sin(q5)*cos(q1 + theta)*cos(q2 + q3) + 0.0270011605263839*sin(q1 + theta)*cos(q4) - 0.00950000072354573*sin(q2 + q3)*cos(q4)*cos(q5)*cos(q1 + theta) - 0.0129999123851717*cos(q5)*cos(q1 + theta)*cos(q2 + q3) + 0.1685*cos(q1 + theta)*cos(q2 + q3)",
+      "-0.0270011605263839*sin(q4)*cos(q2 + q3) + 0.00950000072354573*sin(q5)*sin(q2 + q3) + 0.0129999123851717*sin(q5)*cos(q4)*cos(q2 + q3) - 0.0129999123851717*sin(q2 + q3)*cos(q5) + 0.1685*sin(q2 + q3) + 0.22*cos(q2) + 0.00950000072354573*cos(q4)*cos(q5)*cos(q2 + q3) + 0.2211"
+    ]
+  },
+  {
+    "link_a": "link1",
+    "link_b": "link6",
+    "sphere_a_world_position": [
+      "1.0*x - 0.0575000002682209*sin(q1 + theta) + 0.00799999964237219*cos(q1 + theta)",
+      "1.0*y + 0.00799999964237219*sin(q1 + theta) + 0.0575000002682209*cos(q1 + theta)",
+      "0.142399999731779"
+    ],
+    "sphere_b_world_position": [
+      "1.0*x + 0.0270504834443353*((sin(q4)*cos(q1 + theta) + sin(q1 + theta)*sin(q2 + q3)*cos(q4))*sin(q5) + sin(q1 + theta)*cos(q5)*cos(q2 + q3))*sin(q6) + 0.0130003668711277*((sin(q4)*cos(q1 + theta) + sin(q1 + theta)*sin(q2 + q3)*cos(q4))*sin(q5) + sin(q1 + theta)*cos(q5)*cos(q2 + q3))*cos(q6) - 0.0544999570634311*(sin(q4)*cos(q1 + theta) + sin(q1 + theta)*sin(q2 + q3)*cos(q4))*cos(q5) + 0.0130003668711277*(sin(q4)*sin(q1 + theta)*sin(q2 + q3) - cos(q4)*cos(q1 + theta))*sin(q6) - 0.0270504834443353*(sin(q4)*sin(q1 + theta)*sin(q2 + q3) - cos(q4)*cos(q1 + theta))*cos(q6) + 0.1685*sin(q2)*sin(q3)*sin(q1 + theta) + 0.22*sin(q2)*sin(q1 + theta) + 0.0544999570634311*sin(q5)*sin(q1 + theta)*cos(q2 + q3) - 0.1685*sin(q1 + theta)*cos(q2)*cos(q3)",
+      "1.0*y + 0.0270504834443353*((sin(q4)*sin(q1 + theta) - sin(q2 + q3)*cos(q4)*cos(q1 + theta))*sin(q5) - cos(q5)*cos(q1 + theta)*cos(q2 + q3))*sin(q6) + 0.0130003668711277*((sin(q4)*sin(q1 + theta) - sin(q2 + q3)*cos(q4)*cos(q1 + theta))*sin(q5) - cos(q5)*cos(q1 + theta)*cos(q2 + q3))*cos(q6) - 0.0544999570634311*(sin(q4)*sin(q1 + theta) - sin(q2 + q3)*cos(q4)*cos(q1 + theta))*cos(q5) - 0.0130003668711277*(sin(q4)*sin(q2 + q3)*cos(q1 + theta) + sin(q1 + theta)*cos(q4))*sin(q6) + 0.0270504834443353*(sin(q4)*sin(q2 + q3)*cos(q1 + theta) + sin(q1 + theta)*cos(q4))*cos(q6) - 0.1685*sin(q2)*sin(q3)*cos(q1 + theta) - 0.22*sin(q2)*cos(q1 + theta) - 0.0544999570634311*sin(q5)*cos(q1 + theta)*cos(q2 + q3) + 0.1685*cos(q2)*cos(q3)*cos(q1 + theta)",
+      "0.0130003668711277*sin(q4)*sin(q6)*cos(q2 + q3) - 0.0270504834443353*sin(q4)*cos(q6)*cos(q2 + q3) + 0.0270504834443353*sin(q5)*sin(q6)*cos(q4)*cos(q2 + q3) - 0.0544999570634311*sin(q5)*sin(q2 + q3) + 0.0130003668711277*sin(q5)*cos(q4)*cos(q6)*cos(q2 + q3) - 0.0270504834443353*sin(q6)*sin(q2 + q3)*cos(q5) - 0.0130003668711277*sin(q2 + q3)*cos(q5)*cos(q6) + 0.1685*sin(q2 + q3) + 0.22*cos(q2) - 0.0544999570634311*cos(q4)*cos(q5)*cos(q2 + q3) + 0.2211"
+    ]
+  },
+  {
+    "link_a": "link1",
+    "link_b": "link_hand",
+    "sphere_a_world_position": [
+      "1.0*x - 0.0575000002682209*sin(q1 + theta) + 0.0279999996423721*cos(q1 + theta)",
+      "1.0*y + 0.0279999996423721*sin(q1 + theta) + 0.0575000002682209*cos(q1 + theta)",
+      "0.122399999731779"
+    ],
+    "sphere_b_world_position": [
+      "1.0*x + 0.0657605142314392*((sin(q4)*cos(q1 + theta) + sin(q1 + theta)*sin(q2 + q3)*cos(q4))*sin(q5) + sin(q1 + theta)*cos(q5)*cos(q2 + q3))*sin(q6) + 0.02037619863312*((sin(q4)*cos(q1 + theta) + sin(q1 + theta)*sin(q2 + q3)*cos(q4))*sin(q5) + sin(q1 + theta)*cos(q5)*cos(q2 + q3))*cos(q6) - 0.0794911630535617*(sin(q4)*cos(q1 + theta) + sin(q1 + theta)*sin(q2 + q3)*cos(q4))*cos(q5) + 0.02037619863312*(sin(q4)*sin(q1 + theta)*sin(q2 + q3) - cos(q4)*cos(q1 + theta))*sin(q6) - 0.0657605142314392*(sin(q4)*sin(q1 + theta)*sin(q2 + q3) - cos(q4)*cos(q1 + theta))*cos(q6) + 0.1685*sin(q2)*sin(q3)*sin(q1 + theta) + 0.22*sin(q2)*sin(q1 + theta) + 0.0794911630535617*sin(q5)*sin(q1 + theta)*cos(q2 + q3) - 0.1685*sin(q1 + theta)*cos(q2)*cos(q3)",
+      "1.0*y + 0.0657605142314392*((sin(q4)*sin(q1 + theta) - sin(q2 + q3)*cos(q4)*cos(q1 + theta))*sin(q5) - cos(q5)*cos(q1 + theta)*cos(q2 + q3))*sin(q6) + 0.02037619863312*((sin(q4)*sin(q1 + theta) - sin(q2 + q3)*cos(q4)*cos(q1 + theta))*sin(q5) - cos(q5)*cos(q1 + theta)*cos(q2 + q3))*cos(q6) - 0.0794911630535617*(sin(q4)*sin(q1 + theta) - sin(q2 + q3)*cos(q4)*cos(q1 + theta))*cos(q5) - 0.02037619863312*(sin(q4)*sin(q2 + q3)*cos(q1 + theta) + sin(q1 + theta)*cos(q4))*sin(q6) + 0.0657605142314392*(sin(q4)*sin(q2 + q3)*cos(q1 + theta) + sin(q1 + theta)*cos(q4))*cos(q6) - 0.1685*sin(q2)*sin(q3)*cos(q1 + theta) - 0.22*sin(q2)*cos(q1 + theta) - 0.0794911630535617*sin(q5)*cos(q1 + theta)*cos(q2 + q3) + 0.1685*cos(q2)*cos(q3)*cos(q1 + theta)",
+      "0.02037619863312*sin(q4)*sin(q6)*cos(q2 + q3) - 0.0657605142314392*sin(q4)*cos(q6)*cos(q2 + q3) + 0.0657605142314392*sin(q5)*sin(q6)*cos(q4)*cos(q2 + q3) - 0.0794911630535617*sin(q5)*sin(q2 + q3) + 0.02037619863312*sin(q5)*cos(q4)*cos(q6)*cos(q2 + q3) - 0.0657605142314392*sin(q6)*sin(q2 + q3)*cos(q5) - 0.02037619863312*sin(q2 + q3)*cos(q5)*cos(q6) + 0.1685*sin(q2 + q3) + 0.22*cos(q2) - 0.0794911630535617*cos(q4)*cos(q5)*cos(q2 + q3) + 0.2211"
+    ]
+  },
+  {
+    "link_a": "link1",
+    "link_b": "link_right",
+    "sphere_a_world_position": [
+      "1.0*x - 0.0575000002682209*sin(q1 + theta) - 0.0320000003576278*cos(q1 + theta)",
+      "1.0*y - 0.0320000003576278*sin(q1 + theta) + 0.0575000002682209*cos(q1 + theta)",
+      "0.122399999731779"
+    ],
+    "sphere_b_world_position": [
+      "0.5*g*(-((sin(q4)*cos(q1 + theta) + sin(q1 + theta)*sin(q2 + q3)*cos(q4))*sin(q5) + sin(q1 + theta)*cos(q5)*cos(q2 + q3))*sin(q6) + (sin(q4)*sin(q1 + theta)*sin(q2 + q3) - cos(q4)*cos(q1 + theta))*cos(q6)) + 1.0*x - 0.0126412040452752*((sin(q4)*cos(q1 + theta) + sin(q1 + theta)*sin(q2 + q3)*cos(q4))*sin(q5) + sin(q1 + theta)*cos(q5)*cos(q2 + q3))*sin(q6) + 0.0203020653019158*((sin(q4)*cos(q1 + theta) + sin(q1 + theta)*sin(q2 + q3)*cos(q4))*sin(q5) + sin(q1 + theta)*cos(q5)*cos(q2 + q3))*cos(q6) - 0.126489939193828*(sin(q4)*cos(q1 + theta) + sin(q1 + theta)*sin(q2 + q3)*cos(q4))*cos(q5) + 0.0203020653019158*(sin(q4)*sin(q1 + theta)*sin(q2 + q3) - cos(q4)*cos(q1 + theta))*sin(q6) + 0.0126412040452752*(sin(q4)*sin(q1 + theta)*sin(q2 + q3) - cos(q4)*cos(q1 + theta))*cos(q6) + 0.1685*sin(q2)*sin(q3)*sin(q1 + theta) + 0.22*sin(q2)*sin(q1 + theta) + 0.126489939193828*sin(q5)*sin(q1 + theta)*cos(q2 + q3) - 0.1685*sin(q1 + theta)*cos(q2)*cos(q3)",
+      "-0.5*g*(((sin(q4)*sin(q1 + theta) - sin(q2 + q3)*cos(q4)*cos(q1 + theta))*sin(q5) - cos(q5)*cos(q1 + theta)*cos(q2 + q3))*sin(q6) + (sin(q4)*sin(q2 + q3)*cos(q1 + theta) + sin(q1 + theta)*cos(q4))*cos(q6)) + 1.0*y - 0.0126412040452752*((sin(q4)*sin(q1 + theta) - sin(q2 + q3)*cos(q4)*cos(q1 + theta))*sin(q5) - cos(q5)*cos(q1 + theta)*cos(q2 + q3))*sin(q6) + 0.0203020653019158*((sin(q4)*sin(q1 + theta) - sin(q2 + q3)*cos(q4)*cos(q1 + theta))*sin(q5) - cos(q5)*cos(q1 + theta)*cos(q2 + q3))*cos(q6) - 0.126489939193828*(sin(q4)*sin(q1 + theta) - sin(q2 + q3)*cos(q4)*cos(q1 + theta))*cos(q5) - 0.0203020653019158*(sin(q4)*sin(q2 + q3)*cos(q1 + theta) + sin(q1 + theta)*cos(q4))*sin(q6) - 0.0126412040452752*(sin(q4)*sin(q2 + q3)*cos(q1 + theta) + sin(q1 + theta)*cos(q4))*cos(q6) - 0.1685*sin(q2)*sin(q3)*cos(q1 + theta) - 0.22*sin(q2)*cos(q1 + theta) - 0.126489939193828*sin(q5)*cos(q1 + theta)*cos(q2 + q3) + 0.1685*cos(q2)*cos(q3)*cos(q1 + theta)",
+      "0.5*g*((-sin(q5)*cos(q4)*cos(q2 + q3) + sin(q2 + q3)*cos(q5))*sin(q6) + sin(q4)*cos(q6)*cos(q2 + q3)) + 0.0126412040452752*(-sin(q5)*cos(q4)*cos(q2 + q3) + sin(q2 + q3)*cos(q5))*sin(q6) - 0.0203020653019158*(-sin(q5)*cos(q4)*cos(q2 + q3) + sin(q2 + q3)*cos(q5))*cos(q6) + 0.1685*sin(q2)*cos(q3) + 0.1685*sin(q3)*cos(q2) + 0.0203020653019158*sin(q4)*sin(q6)*cos(q2 + q3) + 0.0126412040452752*sin(q4)*cos(q6)*cos(q2 + q3) - 0.126489939193828*sin(q5)*sin(q2 + q3) + 0.22*cos(q2) - 0.126489939193828*cos(q4)*cos(q5)*cos(q2 + q3) + 0.2211"
+    ]
+  },
+  {
+    "link_a": "link1",
+    "link_b": "link_left",
+    "sphere_a_world_position": [
+      "1.0*x - 0.0575000002682209*sin(q1 + theta) + 0.0279999996423721*cos(q1 + theta)",
+      "1.0*y + 0.0279999996423721*sin(q1 + theta) + 0.0575000002682209*cos(q1 + theta)",
+      "0.122399999731779"
+    ],
+    "sphere_b_world_position": [
+      "-0.5*g*(-((sin(q4)*cos(q1 + theta) + sin(q1 + theta)*sin(q2 + q3)*cos(q4))*sin(q5) + sin(q1 + theta)*cos(q5)*cos(q2 + q3))*sin(q6) + (sin(q4)*sin(q1 + theta)*sin(q2 + q3) - cos(q4)*cos(q1 + theta))*cos(q6)) + 1.0*x + 0.0719130367076059*((sin(q4)*cos(q1 + theta) + sin(q1 + theta)*sin(q2 + q3)*cos(q4))*sin(q5) + sin(q1 + theta)*cos(q5)*cos(q2 + q3))*sin(q6) + 0.012220376533582*((sin(q4)*cos(q1 + theta) + sin(q1 + theta)*sin(q2 + q3)*cos(q4))*sin(q5) + sin(q1 + theta)*cos(q5)*cos(q2 + q3))*cos(q6) - 0.12649038275083*(sin(q4)*cos(q1 + theta) + sin(q1 + theta)*sin(q2 + q3)*cos(q4))*cos(q5) + 0.012220376533582*(sin(q4)*sin(q1 + theta)*sin(q2 + q3) - cos(q4)*cos(q1 + theta))*sin(q6) - 0.0719130367076059*(sin(q4)*sin(q1 + theta)*sin(q2 + q3) - cos(q4)*cos(q1 + theta))*cos(q6) + 0.1685*sin(q2)*sin(q3)*sin(q1 + theta) + 0.22*sin(q2)*sin(q1 + theta) + 0.12649038275083*sin(q5)*sin(q1 + theta)*cos(q2 + q3) - 0.1685*sin(q1 + theta)*cos(q2)*cos(q3)",
+      "0.5*g*(((sin(q4)*sin(q1 + theta) - sin(q2 + q3)*cos(q4)*cos(q1 + theta))*sin(q5) - cos(q5)*cos(q1 + theta)*cos(q2 + q3))*sin(q6) + (sin(q4)*sin(q2 + q3)*cos(q1 + theta) + sin(q1 + theta)*cos(q4))*cos(q6)) + 1.0*y + 0.0719130367076059*((sin(q4)*sin(q1 + theta) - sin(q2 + q3)*cos(q4)*cos(q1 + theta))*sin(q5) - cos(q5)*cos(q1 + theta)*cos(q2 + q3))*sin(q6) + 0.012220376533582*((sin(q4)*sin(q1 + theta) - sin(q2 + q3)*cos(q4)*cos(q1 + theta))*sin(q5) - cos(q5)*cos(q1 + theta)*cos(q2 + q3))*cos(q6) - 0.12649038275083*(sin(q4)*sin(q1 + theta) - sin(q2 + q3)*cos(q4)*cos(q1 + theta))*cos(q5) - 0.012220376533582*(sin(q4)*sin(q2 + q3)*cos(q1 + theta) + sin(q1 + theta)*cos(q4))*sin(q6) + 0.0719130367076059*(sin(q4)*sin(q2 + q3)*cos(q1 + theta) + sin(q1 + theta)*cos(q4))*cos(q6) - 0.1685*sin(q2)*sin(q3)*cos(q1 + theta) - 0.22*sin(q2)*cos(q1 + theta) - 0.12649038275083*sin(q5)*cos(q1 + theta)*cos(q2 + q3) + 0.1685*cos(q2)*cos(q3)*cos(q1 + theta)",
+      "0.5*g*((sin(q5)*cos(q4)*cos(q2 + q3) - sin(q2 + q3)*cos(q5))*sin(q6) - sin(q4)*cos(q6)*cos(q2 + q3)) + 0.0719130367076059*(sin(q5)*cos(q4)*cos(q2 + q3) - sin(q2 + q3)*cos(q5))*sin(q6) + 0.012220376533582*(sin(q5)*cos(q4)*cos(q2 + q3) - sin(q2 + q3)*cos(q5))*cos(q6) + 0.1685*sin(q2)*cos(q3) + 0.1685*sin(q3)*cos(q2) + 0.012220376533582*sin(q4)*sin(q6)*cos(q2 + q3) - 0.0719130367076059*sin(q4)*cos(q6)*cos(q2 + q3) - 0.12649038275083*sin(q5)*sin(q2 + q3) + 0.22*cos(q2) - 0.12649038275083*cos(q4)*cos(q5)*cos(q2 + q3) + 0.2211"
+    ]
+  },
+  {
+    "link_a": "link2",
+    "link_b": "link4",
+    "sphere_a_world_position": [
+      "1.0*x + 0.207796051228779*sin(q2)*sin(q1 + theta) - 0.0469998167872048*sin(q1 + theta)*cos(q2) + 0.0199991691820645*cos(q1 + theta)",
+      "1.0*y - 0.207796051228779*sin(q2)*cos(q1 + theta) + 0.0199991691820645*sin(q1 + theta) + 0.0469998167872048*cos(q2)*cos(q1 + theta)",
+      "0.0469998167872048*sin(q2) + 0.207796051228779*cos(q2) + 0.2211"
+    ],
+    "sphere_b_world_position": [
+      "1.0*x + 0.22*sin(q2)*sin(q1 + theta) - 0.0265046023894384*sin(q4)*sin(q1 + theta)*sin(q2 + q3) - 0.00840036629522373*sin(q4)*cos(q1 + theta) - 0.00840036629522373*sin(q1 + theta)*sin(q2 + q3)*cos(q4) - 0.0794994469407152*sin(q1 + theta)*cos(q2 + q3) + 0.0265046023894384*cos(q4)*cos(q1 + theta)",
+      "1.0*y - 0.22*sin(q2)*cos(q1 + theta) - 0.00840036629522373*sin(q4)*sin(q1 + theta) + 0.0265046023894384*sin(q4)*sin(q2 + q3)*cos(q1 + theta) + 0.0265046023894384*sin(q1 + theta)*cos(q4) + 0.00840036629522373*sin(q2 + q3)*cos(q4)*cos(q1 + theta) + 0.0794994469407152*cos(q1 + theta)*cos(q2 + q3)",
+      "-0.0265046023894384*sin(q4)*cos(q2 + q3) + 0.0794994469407152*sin(q2 + q3) + 0.22*cos(q2) - 0.00840036629522373*cos(q4)*cos(q2 + q3) + 0.2211"
+    ]
+  },
+  {
+    "link_a": "link2",
+    "link_b": "link5",
+    "sphere_a_world_position": [
+      "1.0*x + 0.207796051228779*sin(q2)*sin(q1 + theta) - 0.0469998167872048*sin(q1 + theta)*cos(q2) + 0.0199991691820645*cos(q1 + theta)",
+      "1.0*y - 0.207796051228779*sin(q2)*cos(q1 + theta) + 0.0199991691820645*sin(q1 + theta) + 0.0469998167872048*cos(q2)*cos(q1 + theta)",
+      "0.0469998167872048*sin(q2) + 0.207796051228779*cos(q2) + 0.2211"
+    ],
+    "sphere_b_world_position": [
+      "1.0*x + 0.22*sin(q2)*sin(q1 + theta) + 0.0129999123851717*sin(q4)*sin(q5)*cos(q1 + theta) - 0.0270011605263839*sin(q4)*sin(q1 + theta)*sin(q2 + q3) + 0.00950000072354573*sin(q4)*cos(q5)*cos(q1 + theta) + 0.0129999123851717*sin(q5)*sin(q1 + theta)*sin(q2 + q3)*cos(q4) - 0.00950000072354573*sin(q5)*sin(q1 + theta)*cos(q2 + q3) + 0.00950000072354573*sin(q1 + theta)*sin(q2 + q3)*cos(q4)*cos(q5) + 0.0129999123851717*sin(q1 + theta)*cos(q5)*cos(q2 + q3) - 0.1685*sin(q1 + theta)*cos(q2 + q3) + 0.0270011605263839*cos(q4)*cos(q1 + theta)",
+      "1.0*y - 0.22*sin(q2)*cos(q1 + theta) + 0.0129999123851717*sin(q4)*sin(q5)*sin(q1 + theta) + 0.00950000072354573*sin(q4)*sin(q1 + theta)*cos(q5) + 0.0270011605263839*sin(q4)*sin(q2 + q3)*cos(q1 + theta) - 0.0129999123851717*sin(q5)*sin(q2 + q3)*cos(q4)*cos(q1 + theta) + 0.00950000072354573*sin(q5)*cos(q1 + theta)*cos(q2 + q3) + 0.0270011605263839*sin(q1 + theta)*cos(q4) - 0.00950000072354573*sin(q2 + q3)*cos(q4)*cos(q5)*cos(q1 + theta) - 0.0129999123851717*cos(q5)*cos(q1 + theta)*cos(q2 + q3) + 0.1685*cos(q1 + theta)*cos(q2 + q3)",
+      "-0.0270011605263839*sin(q4)*cos(q2 + q3) + 0.00950000072354573*sin(q5)*sin(q2 + q3) + 0.0129999123851717*sin(q5)*cos(q4)*cos(q2 + q3) - 0.0129999123851717*sin(q2 + q3)*cos(q5) + 0.1685*sin(q2 + q3) + 0.22*cos(q2) + 0.00950000072354573*cos(q4)*cos(q5)*cos(q2 + q3) + 0.2211"
+    ]
+  },
+  {
+    "link_a": "link2",
+    "link_b": "link6",
+    "sphere_a_world_position": [
+      "1.0*x + 0.167795977764947*sin(q2)*sin(q1 + theta) - 0.0469998902513068*sin(q1 + theta)*cos(q2) - 6.83889461505771e-7*cos(q1 + theta)",
+      "1.0*y - 0.167795977764947*sin(q2)*cos(q1 + theta) - 6.83889461505771e-7*sin(q1 + theta) + 0.0469998902513068*cos(q2)*cos(q1 + theta)",
+      "0.0469998902513068*sin(q2) + 0.167795977764947*cos(q2) + 0.2211"
+    ],
+    "sphere_b_world_position": [
+      "1.0*x + 0.0270502630517592*((sin(q4)*cos(q1 + theta) + sin(q1 + theta)*sin(q2 + q3)*cos(q4))*sin(q5) + sin(q1 + theta)*cos(q5)*cos(q2 + q3))*sin(q6) + 0.0130003668708579*((sin(q4)*cos(q1 + theta) + sin(q1 + theta)*sin(q2 + q3)*cos(q4))*sin(q5) + sin(q1 + theta)*cos(q5)*cos(q2 + q3))*cos(q6) - 0.0344999570646455*(sin(q4)*cos(q1 + theta) + sin(q1 + theta)*sin(q2 + q3)*cos(q4))*cos(q5) + 0.0130003668708579*(sin(q4)*sin(q1 + theta)*sin(q2 + q3) - cos(q4)*cos(q1 + theta))*sin(q6) - 0.0270502630517592*(sin(q4)*sin(q1 + theta)*sin(q2 + q3) - cos(q4)*cos(q1 + theta))*cos(q6) + 0.1685*sin(q2)*sin(q3)*sin(q1 + theta) + 0.22*sin(q2)*sin(q1 + theta) + 0.0344999570646455*sin(q5)*sin(q1 + theta)*cos(q2 + q3) - 0.1685*sin(q1 + theta)*cos(q2)*cos(q3)",
+      "1.0*y + 0.0270502630517592*((sin(q4)*sin(q1 + theta) - sin(q2 + q3)*cos(q4)*cos(q1 + theta))*sin(q5) - cos(q5)*cos(q1 + theta)*cos(q2 + q3))*sin(q6) + 0.0130003668708579*((sin(q4)*sin(q1 + theta) - sin(q2 + q3)*cos(q4)*cos(q1 + theta))*sin(q5) - cos(q5)*cos(q1 + theta)*cos(q2 + q3))*cos(q6) - 0.0344999570646455*(sin(q4)*sin(q1 + theta) - sin(q2 + q3)*cos(q4)*cos(q1 + theta))*cos(q5) - 0.0130003668708579*(sin(q4)*sin(q2 + q3)*cos(q1 + theta) + sin(q1 + theta)*cos(q4))*sin(q6) + 0.0270502630517592*(sin(q4)*sin(q2 + q3)*cos(q1 + theta) + sin(q1 + theta)*cos(q4))*cos(q6) - 0.1685*sin(q2)*sin(q3)*cos(q1 + theta) - 0.22*sin(q2)*cos(q1 + theta) - 0.0344999570646455*sin(q5)*cos(q1 + theta)*cos(q2 + q3) + 0.1685*cos(q2)*cos(q3)*cos(q1 + theta)",
+      "0.0130003668708579*sin(q4)*sin(q6)*cos(q2 + q3) - 0.0270502630517592*sin(q4)*cos(q6)*cos(q2 + q3) + 0.0270502630517592*sin(q5)*sin(q6)*cos(q4)*cos(q2 + q3) - 0.0344999570646455*sin(q5)*sin(q2 + q3) + 0.0130003668708579*sin(q5)*cos(q4)*cos(q6)*cos(q2 + q3) - 0.0270502630517592*sin(q6)*sin(q2 + q3)*cos(q5) - 0.0130003668708579*sin(q2 + q3)*cos(q5)*cos(q6) + 0.1685*sin(q2 + q3) + 0.22*cos(q2) - 0.0344999570646455*cos(q4)*cos(q5)*cos(q2 + q3) + 0.2211"
+    ]
+  },
+  {
+    "link_a": "link2",
+    "link_b": "link_hand",
+    "sphere_a_world_position": [
+      "1.0*x + 0.127796051229319*sin(q2)*sin(q1 + theta) - 0.0469998167872047*sin(q1 + theta)*cos(q2) + 0.0199994630384727*cos(q1 + theta)",
+      "1.0*y - 0.127796051229319*sin(q2)*cos(q1 + theta) + 0.0199994630384727*sin(q1 + theta) + 0.0469998167872047*cos(q2)*cos(q1 + theta)",
+      "0.0469998167872047*sin(q2) + 0.127796051229319*cos(q2) + 0.2211"
+    ],
+    "sphere_b_world_position": [
+      "1.0*x + 0.0657602938388631*((sin(q4)*cos(q1 + theta) + sin(q1 + theta)*sin(q2 + q3)*cos(q4))*sin(q5) + sin(q1 + theta)*cos(q5)*cos(q2 + q3))*sin(q6) + 0.0203761986328501*((sin(q4)*cos(q1 + theta) + sin(q1 + theta)*sin(q2 + q3)*cos(q4))*sin(q5) + sin(q1 + theta)*cos(q5)*cos(q2 + q3))*cos(q6) - 0.0594911630547761*(sin(q4)*cos(q1 + theta) + sin(q1 + theta)*sin(q2 + q3)*cos(q4))*cos(q5) + 0.0203761986328501*(sin(q4)*sin(q1 + theta)*sin(q2 + q3) - cos(q4)*cos(q1 + theta))*sin(q6) - 0.0657602938388631*(sin(q4)*sin(q1 + theta)*sin(q2 + q3) - cos(q4)*cos(q1 + theta))*cos(q6) + 0.1685*sin(q2)*sin(q3)*sin(q1 + theta) + 0.22*sin(q2)*sin(q1 + theta) + 0.0594911630547761*sin(q5)*sin(q1 + theta)*cos(q2 + q3) - 0.1685*sin(q1 + theta)*cos(q2)*cos(q3)",
+      "1.0*y + 0.0657602938388631*((sin(q4)*sin(q1 + theta) - sin(q2 + q3)*cos(q4)*cos(q1 + theta))*sin(q5) - cos(q5)*cos(q1 + theta)*cos(q2 + q3))*sin(q6) + 0.0203761986328501*((sin(q4)*sin(q1 + theta) - sin(q2 + q3)*cos(q4)*cos(q1 + theta))*sin(q5) - cos(q5)*cos(q1 + theta)*cos(q2 + q3))*cos(q6) - 0.0594911630547761*(sin(q4)*sin(q1 + theta) - sin(q2 + q3)*cos(q4)*cos(q1 + theta))*cos(q5) - 0.0203761986328501*(sin(q4)*sin(q2 + q3)*cos(q1 + theta) + sin(q1 + theta)*cos(q4))*sin(q6) + 0.0657602938388631*(sin(q4)*sin(q2 + q3)*cos(q1 + theta) + sin(q1 + theta)*cos(q4))*cos(q6) - 0.1685*sin(q2)*sin(q3)*cos(q1 + theta) - 0.22*sin(q2)*cos(q1 + theta) - 0.0594911630547761*sin(q5)*cos(q1 + theta)*cos(q2 + q3) + 0.1685*cos(q2)*cos(q3)*cos(q1 + theta)",
+      "0.0203761986328501*sin(q4)*sin(q6)*cos(q2 + q3) - 0.0657602938388631*sin(q4)*cos(q6)*cos(q2 + q3) + 0.0657602938388631*sin(q5)*sin(q6)*cos(q4)*cos(q2 + q3) - 0.0594911630547761*sin(q5)*sin(q2 + q3) + 0.0203761986328501*sin(q5)*cos(q4)*cos(q6)*cos(q2 + q3) - 0.0657602938388631*sin(q6)*sin(q2 + q3)*cos(q5) - 0.0203761986328501*sin(q2 + q3)*cos(q5)*cos(q6) + 0.1685*sin(q2 + q3) + 0.22*cos(q2) - 0.0594911630547761*cos(q4)*cos(q5)*cos(q2 + q3) + 0.2211"
+    ]
+  },
+  {
+    "link_a": "link2",
+    "link_b": "link_right",
+    "sphere_a_world_position": [
+      "1.0*x + 0.14779590430098*sin(q2)*sin(q1 + theta) - 0.0469999637154089*sin(q1 + theta)*cos(q2) - 0.0200006104250896*cos(q1 + theta)",
+      "1.0*y - 0.14779590430098*sin(q2)*cos(q1 + theta) - 0.0200006104250896*sin(q1 + theta) + 0.0469999637154089*cos(q2)*cos(q1 + theta)",
+      "0.0469999637154089*sin(q2) + 0.14779590430098*cos(q2) + 0.2211"
+    ],
+    "sphere_b_world_position": [
+      "0.5*g*(-((sin(q4)*cos(q1 + theta) + sin(q1 + theta)*sin(q2 + q3)*cos(q4))*sin(q5) + sin(q1 + theta)*cos(q5)*cos(q2 + q3))*sin(q6) + (sin(q4)*sin(q1 + theta)*sin(q2 + q3) - cos(q4)*cos(q1 + theta))*cos(q6)) + 1.0*x - 0.0126412040452752*((sin(q4)*cos(q1 + theta) + sin(q1 + theta)*sin(q2 + q3)*cos(q4))*sin(q5) + sin(q1 + theta)*cos(q5)*cos(q2 + q3))*sin(q6) + 0.0203020653019158*((sin(q4)*cos(q1 + theta) + sin(q1 + theta)*sin(q2 + q3)*cos(q4))*sin(q5) + sin(q1 + theta)*cos(q5)*cos(q2 + q3))*cos(q6) - 0.126489939193828*(sin(q4)*cos(q1 + theta) + sin(q1 + theta)*sin(q2 + q3)*cos(q4))*cos(q5) + 0.0203020653019158*(sin(q4)*sin(q1 + theta)*sin(q2 + q3) - cos(q4)*cos(q1 + theta))*sin(q6) + 0.0126412040452752*(sin(q4)*sin(q1 + theta)*sin(q2 + q3) - cos(q4)*cos(q1 + theta))*cos(q6) + 0.1685*sin(q2)*sin(q3)*sin(q1 + theta) + 0.22*sin(q2)*sin(q1 + theta) + 0.126489939193828*sin(q5)*sin(q1 + theta)*cos(q2 + q3) - 0.1685*sin(q1 + theta)*cos(q2)*cos(q3)",
+      "-0.5*g*(((sin(q4)*sin(q1 + theta) - sin(q2 + q3)*cos(q4)*cos(q1 + theta))*sin(q5) - cos(q5)*cos(q1 + theta)*cos(q2 + q3))*sin(q6) + (sin(q4)*sin(q2 + q3)*cos(q1 + theta) + sin(q1 + theta)*cos(q4))*cos(q6)) + 1.0*y - 0.0126412040452752*((sin(q4)*sin(q1 + theta) - sin(q2 + q3)*cos(q4)*cos(q1 + theta))*sin(q5) - cos(q5)*cos(q1 + theta)*cos(q2 + q3))*sin(q6) + 0.0203020653019158*((sin(q4)*sin(q1 + theta) - sin(q2 + q3)*cos(q4)*cos(q1 + theta))*sin(q5) - cos(q5)*cos(q1 + theta)*cos(q2 + q3))*cos(q6) - 0.126489939193828*(sin(q4)*sin(q1 + theta) - sin(q2 + q3)*cos(q4)*cos(q1 + theta))*cos(q5) - 0.0203020653019158*(sin(q4)*sin(q2 + q3)*cos(q1 + theta) + sin(q1 + theta)*cos(q4))*sin(q6) - 0.0126412040452752*(sin(q4)*sin(q2 + q3)*cos(q1 + theta) + sin(q1 + theta)*cos(q4))*cos(q6) - 0.1685*sin(q2)*sin(q3)*cos(q1 + theta) - 0.22*sin(q2)*cos(q1 + theta) - 0.126489939193828*sin(q5)*cos(q1 + theta)*cos(q2 + q3) + 0.1685*cos(q2)*cos(q3)*cos(q1 + theta)",
+      "0.5*g*((-sin(q5)*cos(q4)*cos(q2 + q3) + sin(q2 + q3)*cos(q5))*sin(q6) + sin(q4)*cos(q6)*cos(q2 + q3)) + 0.0126412040452752*(-sin(q5)*cos(q4)*cos(q2 + q3) + sin(q2 + q3)*cos(q5))*sin(q6) - 0.0203020653019158*(-sin(q5)*cos(q4)*cos(q2 + q3) + sin(q2 + q3)*cos(q5))*cos(q6) + 0.1685*sin(q2)*cos(q3) + 0.1685*sin(q3)*cos(q2) + 0.0203020653019158*sin(q4)*sin(q6)*cos(q2 + q3) + 0.0126412040452752*sin(q4)*cos(q6)*cos(q2 + q3) - 0.126489939193828*sin(q5)*sin(q2 + q3) + 0.22*cos(q2) - 0.126489939193828*cos(q4)*cos(q5)*cos(q2 + q3) + 0.2211"
+    ]
+  },
+  {
+    "link_a": "link2",
+    "link_b": "link_left",
+    "sphere_a_world_position": [
+      "1.0*x + 0.087796124693691*sin(q2)*sin(q1 + theta) - 0.0469997433231027*sin(q1 + theta)*cos(q2) + 0.0399996099664071*cos(q1 + theta)",
+      "1.0*y - 0.087796124693691*sin(q2)*cos(q1 + theta) + 0.0399996099664071*sin(q1 + theta) + 0.0469997433231027*cos(q2)*cos(q1 + theta)",
+      "0.0469997433231027*sin(q2) + 0.087796124693691*cos(q2) + 0.2211"
+    ],
+    "sphere_b_world_position": [
+      "-0.5*g*(-((sin(q4)*cos(q1 + theta) + sin(q1 + theta)*sin(q2 + q3)*cos(q4))*sin(q5) + sin(q1 + theta)*cos(q5)*cos(q2 + q3))*sin(q6) + (sin(q4)*sin(q1 + theta)*sin(q2 + q3) - cos(q4)*cos(q1 + theta))*cos(q6)) + 1.0*x + 0.0719130367076059*((sin(q4)*cos(q1 + theta) + sin(q1 + theta)*sin(q2 + q3)*cos(q4))*sin(q5) + sin(q1 + theta)*cos(q5)*cos(q2 + q3))*sin(q6) + 0.012220376533582*((sin(q4)*cos(q1 + theta) + sin(q1 + theta)*sin(q2 + q3)*cos(q4))*sin(q5) + sin(q1 + theta)*cos(q5)*cos(q2 + q3))*cos(q6) - 0.12649038275083*(sin(q4)*cos(q1 + theta) + sin(q1 + theta)*sin(q2 + q3)*cos(q4))*cos(q5) + 0.012220376533582*(sin(q4)*sin(q1 + theta)*sin(q2 + q3) - cos(q4)*cos(q1 + theta))*sin(q6) - 0.0719130367076059*(sin(q4)*sin(q1 + theta)*sin(q2 + q3) - cos(q4)*cos(q1 + theta))*cos(q6) + 0.1685*sin(q2)*sin(q3)*sin(q1 + theta) + 0.22*sin(q2)*sin(q1 + theta) + 0.12649038275083*sin(q5)*sin(q1 + theta)*cos(q2 + q3) - 0.1685*sin(q1 + theta)*cos(q2)*cos(q3)",
+      "0.5*g*(((sin(q4)*sin(q1 + theta) - sin(q2 + q3)*cos(q4)*cos(q1 + theta))*sin(q5) - cos(q5)*cos(q1 + theta)*cos(q2 + q3))*sin(q6) + (sin(q4)*sin(q2 + q3)*cos(q1 + theta) + sin(q1 + theta)*cos(q4))*cos(q6)) + 1.0*y + 0.0719130367076059*((sin(q4)*sin(q1 + theta) - sin(q2 + q3)*cos(q4)*cos(q1 + theta))*sin(q5) - cos(q5)*cos(q1 + theta)*cos(q2 + q3))*sin(q6) + 0.012220376533582*((sin(q4)*sin(q1 + theta) - sin(q2 + q3)*cos(q4)*cos(q1 + theta))*sin(q5) - cos(q5)*cos(q1 + theta)*cos(q2 + q3))*cos(q6) - 0.12649038275083*(sin(q4)*sin(q1 + theta) - sin(q2 + q3)*cos(q4)*cos(q1 + theta))*cos(q5) - 0.012220376533582*(sin(q4)*sin(q2 + q3)*cos(q1 + theta) + sin(q1 + theta)*cos(q4))*sin(q6) + 0.0719130367076059*(sin(q4)*sin(q2 + q3)*cos(q1 + theta) + sin(q1 + theta)*cos(q4))*cos(q6) - 0.1685*sin(q2)*sin(q3)*cos(q1 + theta) - 0.22*sin(q2)*cos(q1 + theta) - 0.12649038275083*sin(q5)*cos(q1 + theta)*cos(q2 + q3) + 0.1685*cos(q2)*cos(q3)*cos(q1 + theta)",
+      "0.5*g*((sin(q5)*cos(q4)*cos(q2 + q3) - sin(q2 + q3)*cos(q5))*sin(q6) - sin(q4)*cos(q6)*cos(q2 + q3)) + 0.0719130367076059*(sin(q5)*cos(q4)*cos(q2 + q3) - sin(q2 + q3)*cos(q5))*sin(q6) + 0.012220376533582*(sin(q5)*cos(q4)*cos(q2 + q3) - sin(q2 + q3)*cos(q5))*cos(q6) + 0.1685*sin(q2)*cos(q3) + 0.1685*sin(q3)*cos(q2) + 0.012220376533582*sin(q4)*sin(q6)*cos(q2 + q3) - 0.0719130367076059*sin(q4)*cos(q6)*cos(q2 + q3) - 0.12649038275083*sin(q5)*sin(q2 + q3) + 0.22*cos(q2) - 0.12649038275083*cos(q4)*cos(q5)*cos(q2 + q3) + 0.2211"
+    ]
+  },
+  {
+    "link_a": "link3",
+    "link_b": "link_hand",
+    "sphere_a_world_position": [
+      "1.0*x + 0.22*sin(q2)*sin(q1 + theta) - 0.0154999768867446*sin(q1 + theta)*sin(q2 + q3) - 0.0919991922377515*sin(q1 + theta)*cos(q2 + q3) + 0.0314999625043868*cos(q1 + theta)",
+      "1.0*y - 0.22*sin(q2)*cos(q1 + theta) + 0.0314999625043868*sin(q1 + theta) + 0.0154999768867446*sin(q2 + q3)*cos(q1 + theta) + 0.0919991922377515*cos(q1 + theta)*cos(q2 + q3)",
+      "0.0919991922377515*sin(q2 + q3) + 0.22*cos(q2) - 0.0154999768867446*cos(q2 + q3) + 0.2211"
+    ],
+    "sphere_b_world_position": [
+      "1.0*x + 0.0657604407670672*((sin(q4)*cos(q1 + theta) + sin(q1 + theta)*sin(q2 + q3)*cos(q4))*sin(q5) + sin(q1 + theta)*cos(q5)*cos(q2 + q3))*sin(q6) + 0.000376198633389779*((sin(q4)*cos(q1 + theta) + sin(q1 + theta)*sin(q2 + q3)*cos(q4))*sin(q5) + sin(q1 + theta)*cos(q5)*cos(q2 + q3))*cos(q6) - 0.0594911630534268*(sin(q4)*cos(q1 + theta) + sin(q1 + theta)*sin(q2 + q3)*cos(q4))*cos(q5) + 0.000376198633389779*(sin(q4)*sin(q1 + theta)*sin(q2 + q3) - cos(q4)*cos(q1 + theta))*sin(q6) - 0.0657604407670672*(sin(q4)*sin(q1 + theta)*sin(q2 + q3) - cos(q4)*cos(q1 + theta))*cos(q6) + 0.1685*sin(q2)*sin(q3)*sin(q1 + theta) + 0.22*sin(q2)*sin(q1 + theta) + 0.0594911630534268*sin(q5)*sin(q1 + theta)*cos(q2 + q3) - 0.1685*sin(q1 + theta)*cos(q2)*cos(q3)",
+      "1.0*y + 0.0657604407670672*((sin(q4)*sin(q1 + theta) - sin(q2 + q3)*cos(q4)*cos(q1 + theta))*sin(q5) - cos(q5)*cos(q1 + theta)*cos(q2 + q3))*sin(q6) + 0.000376198633389779*((sin(q4)*sin(q1 + theta) - sin(q2 + q3)*cos(q4)*cos(q1 + theta))*sin(q5) - cos(q5)*cos(q1 + theta)*cos(q2 + q3))*cos(q6) - 0.0594911630534268*(sin(q4)*sin(q1 + theta) - sin(q2 + q3)*cos(q4)*cos(q1 + theta))*cos(q5) - 0.000376198633389779*(sin(q4)*sin(q2 + q3)*cos(q1 + theta) + sin(q1 + theta)*cos(q4))*sin(q6) + 0.0657604407670672*(sin(q4)*sin(q2 + q3)*cos(q1 + theta) + sin(q1 + theta)*cos(q4))*cos(q6) - 0.1685*sin(q2)*sin(q3)*cos(q1 + theta) - 0.22*sin(q2)*cos(q1 + theta) - 0.0594911630534268*sin(q5)*cos(q1 + theta)*cos(q2 + q3) + 0.1685*cos(q2)*cos(q3)*cos(q1 + theta)",
+      "0.000376198633389779*sin(q4)*sin(q6)*cos(q2 + q3) - 0.0657604407670672*sin(q4)*cos(q6)*cos(q2 + q3) + 0.0657604407670672*sin(q5)*sin(q6)*cos(q4)*cos(q2 + q3) - 0.0594911630534268*sin(q5)*sin(q2 + q3) + 0.000376198633389779*sin(q5)*cos(q4)*cos(q6)*cos(q2 + q3) - 0.0657604407670672*sin(q6)*sin(q2 + q3)*cos(q5) - 0.000376198633389779*sin(q2 + q3)*cos(q5)*cos(q6) + 0.1685*sin(q2 + q3) + 0.22*cos(q2) - 0.0594911630534268*cos(q4)*cos(q5)*cos(q2 + q3) + 0.2211"
+    ]
+  },
+  {
+    "link_a": "link3",
+    "link_b": "link_right",
+    "sphere_a_world_position": [
+      "1.0*x + 0.22*sin(q2)*sin(q1 + theta) - 0.0155001972782412*sin(q1 + theta)*sin(q2 + q3) - 0.0919998534154796*sin(q1 + theta)*cos(q2 + q3) - 0.0285000374915656*cos(q1 + theta)",
+      "1.0*y - 0.22*sin(q2)*cos(q1 + theta) - 0.0285000374915656*sin(q1 + theta) + 0.0155001972782412*sin(q2 + q3)*cos(q1 + theta) + 0.0919998534154796*cos(q1 + theta)*cos(q2 + q3)",
+      "0.0919998534154796*sin(q2 + q3) + 0.22*cos(q2) - 0.0155001972782412*cos(q2 + q3) + 0.2211"
+    ],
+    "sphere_b_world_position": [
+      "0.5*g*(-((sin(q4)*cos(q1 + theta) + sin(q1 + theta)*sin(q2 + q3)*cos(q4))*sin(q5) + sin(q1 + theta)*cos(q5)*cos(q2 + q3))*sin(q6) + (sin(q4)*sin(q1 + theta)*sin(q2 + q3) - cos(q4)*cos(q1 + theta))*cos(q6)) + 1.0*x - 0.0126412040452752*((sin(q4)*cos(q1 + theta) + sin(q1 + theta)*sin(q2 + q3)*cos(q4))*sin(q5) + sin(q1 + theta)*cos(q5)*cos(q2 + q3))*sin(q6) + 0.0203020653019158*((sin(q4)*cos(q1 + theta) + sin(q1 + theta)*sin(q2 + q3)*cos(q4))*sin(q5) + sin(q1 + theta)*cos(q5)*cos(q2 + q3))*cos(q6) - 0.126489939193828*(sin(q4)*cos(q1 + theta) + sin(q1 + theta)*sin(q2 + q3)*cos(q4))*cos(q5) + 0.0203020653019158*(sin(q4)*sin(q1 + theta)*sin(q2 + q3) - cos(q4)*cos(q1 + theta))*sin(q6) + 0.0126412040452752*(sin(q4)*sin(q1 + theta)*sin(q2 + q3) - cos(q4)*cos(q1 + theta))*cos(q6) + 0.1685*sin(q2)*sin(q3)*sin(q1 + theta) + 0.22*sin(q2)*sin(q1 + theta) + 0.126489939193828*sin(q5)*sin(q1 + theta)*cos(q2 + q3) - 0.1685*sin(q1 + theta)*cos(q2)*cos(q3)",
+      "-0.5*g*(((sin(q4)*sin(q1 + theta) - sin(q2 + q3)*cos(q4)*cos(q1 + theta))*sin(q5) - cos(q5)*cos(q1 + theta)*cos(q2 + q3))*sin(q6) + (sin(q4)*sin(q2 + q3)*cos(q1 + theta) + sin(q1 + theta)*cos(q4))*cos(q6)) + 1.0*y - 0.0126412040452752*((sin(q4)*sin(q1 + theta) - sin(q2 + q3)*cos(q4)*cos(q1 + theta))*sin(q5) - cos(q5)*cos(q1 + theta)*cos(q2 + q3))*sin(q6) + 0.0203020653019158*((sin(q4)*sin(q1 + theta) - sin(q2 + q3)*cos(q4)*cos(q1 + theta))*sin(q5) - cos(q5)*cos(q1 + theta)*cos(q2 + q3))*cos(q6) - 0.126489939193828*(sin(q4)*sin(q1 + theta) - sin(q2 + q3)*cos(q4)*cos(q1 + theta))*cos(q5) - 0.0203020653019158*(sin(q4)*sin(q2 + q3)*cos(q1 + theta) + sin(q1 + theta)*cos(q4))*sin(q6) - 0.0126412040452752*(sin(q4)*sin(q2 + q3)*cos(q1 + theta) + sin(q1 + theta)*cos(q4))*cos(q6) - 0.1685*sin(q2)*sin(q3)*cos(q1 + theta) - 0.22*sin(q2)*cos(q1 + theta) - 0.126489939193828*sin(q5)*cos(q1 + theta)*cos(q2 + q3) + 0.1685*cos(q2)*cos(q3)*cos(q1 + theta)",
+      "0.5*g*((-sin(q5)*cos(q4)*cos(q2 + q3) + sin(q2 + q3)*cos(q5))*sin(q6) + sin(q4)*cos(q6)*cos(q2 + q3)) + 0.0126412040452752*(-sin(q5)*cos(q4)*cos(q2 + q3) + sin(q2 + q3)*cos(q5))*sin(q6) - 0.0203020653019158*(-sin(q5)*cos(q4)*cos(q2 + q3) + sin(q2 + q3)*cos(q5))*cos(q6) + 0.1685*sin(q2)*cos(q3) + 0.1685*sin(q3)*cos(q2) + 0.0203020653019158*sin(q4)*sin(q6)*cos(q2 + q3) + 0.0126412040452752*sin(q4)*cos(q6)*cos(q2 + q3) - 0.126489939193828*sin(q5)*sin(q2 + q3) + 0.22*cos(q2) - 0.126489939193828*cos(q4)*cos(q5)*cos(q2 + q3) + 0.2211"
+    ]
+  },
+  {
+    "link_a": "link3",
+    "link_b": "link_left",
+    "sphere_a_world_position": [
+      "1.0*x + 0.22*sin(q2)*sin(q1 + theta) - 0.0155000503505767*sin(q1 + theta)*sin(q2 + q3) - 0.0919994126303275*sin(q1 + theta)*cos(q2 + q3) + 0.011499962505736*cos(q1 + theta)",
+      "1.0*y - 0.22*sin(q2)*cos(q1 + theta) + 0.011499962505736*sin(q1 + theta) + 0.0155000503505767*sin(q2 + q3)*cos(q1 + theta) + 0.0919994126303275*cos(q1 + theta)*cos(q2 + q3)",
+      "0.0919994126303275*sin(q2 + q3) + 0.22*cos(q2) - 0.0155000503505767*cos(q2 + q3) + 0.2211"
+    ],
+    "sphere_b_world_position": [
+      "-0.5*g*(-((sin(q4)*cos(q1 + theta) + sin(q1 + theta)*sin(q2 + q3)*cos(q4))*sin(q5) + sin(q1 + theta)*cos(q5)*cos(q2 + q3))*sin(q6) + (sin(q4)*sin(q1 + theta)*sin(q2 + q3) - cos(q4)*cos(q1 + theta))*cos(q6)) + 1.0*x + 0.0519130367086853*((sin(q4)*cos(q1 + theta) + sin(q1 + theta)*sin(q2 + q3)*cos(q4))*sin(q5) + sin(q1 + theta)*cos(q5)*cos(q2 + q3))*sin(q6) + 0.0122202296053777*((sin(q4)*cos(q1 + theta) + sin(q1 + theta)*sin(q2 + q3)*cos(q4))*sin(q5) + sin(q1 + theta)*cos(q5)*cos(q2 + q3))*cos(q6) - 0.126490529679304*(sin(q4)*cos(q1 + theta) + sin(q1 + theta)*sin(q2 + q3)*cos(q4))*cos(q5) + 0.0122202296053777*(sin(q4)*sin(q1 + theta)*sin(q2 + q3) - cos(q4)*cos(q1 + theta))*sin(q6) - 0.0519130367086853*(sin(q4)*sin(q1 + theta)*sin(q2 + q3) - cos(q4)*cos(q1 + theta))*cos(q6) + 0.1685*sin(q2)*sin(q3)*sin(q1 + theta) + 0.22*sin(q2)*sin(q1 + theta) + 0.126490529679304*sin(q5)*sin(q1 + theta)*cos(q2 + q3) - 0.1685*sin(q1 + theta)*cos(q2)*cos(q3)",
+      "0.5*g*(((sin(q4)*sin(q1 + theta) - sin(q2 + q3)*cos(q4)*cos(q1 + theta))*sin(q5) - cos(q5)*cos(q1 + theta)*cos(q2 + q3))*sin(q6) + (sin(q4)*sin(q2 + q3)*cos(q1 + theta) + sin(q1 + theta)*cos(q4))*cos(q6)) + 1.0*y + 0.0519130367086853*((sin(q4)*sin(q1 + theta) - sin(q2 + q3)*cos(q4)*cos(q1 + theta))*sin(q5) - cos(q5)*cos(q1 + theta)*cos(q2 + q3))*sin(q6) + 0.0122202296053777*((sin(q4)*sin(q1 + theta) - sin(q2 + q3)*cos(q4)*cos(q1 + theta))*sin(q5) - cos(q5)*cos(q1 + theta)*cos(q2 + q3))*cos(q6) - 0.126490529679304*(sin(q4)*sin(q1 + theta) - sin(q2 + q3)*cos(q4)*cos(q1 + theta))*cos(q5) - 0.0122202296053777*(sin(q4)*sin(q2 + q3)*cos(q1 + theta) + sin(q1 + theta)*cos(q4))*sin(q6) + 0.0519130367086853*(sin(q4)*sin(q2 + q3)*cos(q1 + theta) + sin(q1 + theta)*cos(q4))*cos(q6) - 0.1685*sin(q2)*sin(q3)*cos(q1 + theta) - 0.22*sin(q2)*cos(q1 + theta) - 0.126490529679304*sin(q5)*cos(q1 + theta)*cos(q2 + q3) + 0.1685*cos(q2)*cos(q3)*cos(q1 + theta)",
+      "0.5*g*((sin(q5)*cos(q4)*cos(q2 + q3) - sin(q2 + q3)*cos(q5))*sin(q6) - sin(q4)*cos(q6)*cos(q2 + q3)) + 0.0519130367086853*(sin(q5)*cos(q4)*cos(q2 + q3) - sin(q2 + q3)*cos(q5))*sin(q6) + 0.0122202296053777*(sin(q5)*cos(q4)*cos(q2 + q3) - sin(q2 + q3)*cos(q5))*cos(q6) + 0.1685*sin(q2)*cos(q3) + 0.1685*sin(q3)*cos(q2) + 0.0122202296053777*sin(q4)*sin(q6)*cos(q2 + q3) - 0.0519130367086853*sin(q4)*cos(q6)*cos(q2 + q3) - 0.126490529679304*sin(q5)*sin(q2 + q3) + 0.22*cos(q2) - 0.126490529679304*cos(q4)*cos(q5)*cos(q2 + q3) + 0.2211"
+    ]
+  },
+  {
+    "link_a": "link4",
+    "link_b": "link_hand",
+    "sphere_a_world_position": [
+      "1.0*x + 0.22*sin(q2)*sin(q1 + theta) - 0.00650533703113376*sin(q4)*sin(q1 + theta)*sin(q2 + q3) - 0.00840007243719637*sin(q4)*cos(q1 + theta) - 0.00840007243719637*sin(q1 + theta)*sin(q2 + q3)*cos(q4) - 0.179499593865816*sin(q1 + theta)*cos(q2 + q3) + 0.00650533703113376*cos(q4)*cos(q1 + theta)",
+      "1.0*y - 0.22*sin(q2)*cos(q1 + theta) - 0.00840007243719637*sin(q4)*sin(q1 + theta) + 0.00650533703113376*sin(q4)*sin(q2 + q3)*cos(q1 + theta) + 0.00650533703113376*sin(q1 + theta)*cos(q4) + 0.00840007243719637*sin(q2 + q3)*cos(q4)*cos(q1 + theta) + 0.179499593865816*cos(q1 + theta)*cos(q2 + q3)",
+      "-0.00650533703113376*sin(q4)*cos(q2 + q3) + 0.179499593865816*sin(q2 + q3) + 0.22*cos(q2) - 0.00840007243719637*cos(q4)*cos(q2 + q3) + 0.2211"
+    ],
+    "sphere_b_world_position": [
+      "1.0*x + 0.00576044077232916*((sin(q4)*cos(q1 + theta) + sin(q1 + theta)*sin(q2 + q3)*cos(q4))*sin(q5) + sin(q1 + theta)*cos(q5)*cos(q2 + q3))*sin(q6) + 0.000375757848777414*((sin(q4)*cos(q1 + theta) + sin(q1 + theta)*sin(q2 + q3)*cos(q4))*sin(q5) + sin(q1 + theta)*cos(q5)*cos(q2 + q3))*cos(q6) - 0.0594918242311549*(sin(q4)*cos(q1 + theta) + sin(q1 + theta)*sin(q2 + q3)*cos(q4))*cos(q5) + 0.000375757848777414*(sin(q4)*sin(q1 + theta)*sin(q2 + q3) - cos(q4)*cos(q1 + theta))*sin(q6) - 0.00576044077232916*(sin(q4)*sin(q1 + theta)*sin(q2 + q3) - cos(q4)*cos(q1 + theta))*cos(q6) + 0.1685*sin(q2)*sin(q3)*sin(q1 + theta) + 0.22*sin(q2)*sin(q1 + theta) + 0.0594918242311549*sin(q5)*sin(q1 + theta)*cos(q2 + q3) - 0.1685*sin(q1 + theta)*cos(q2)*cos(q3)",
+      "1.0*y + 0.00576044077232916*((sin(q4)*sin(q1 + theta) - sin(q2 + q3)*cos(q4)*cos(q1 + theta))*sin(q5) - cos(q5)*cos(q1 + theta)*cos(q2 + q3))*sin(q6) + 0.000375757848777414*((sin(q4)*sin(q1 + theta) - sin(q2 + q3)*cos(q4)*cos(q1 + theta))*sin(q5) - cos(q5)*cos(q1 + theta)*cos(q2 + q3))*cos(q6) - 0.0594918242311549*(sin(q4)*sin(q1 + theta) - sin(q2 + q3)*cos(q4)*cos(q1 + theta))*cos(q5) - 0.000375757848777414*(sin(q4)*sin(q2 + q3)*cos(q1 + theta) + sin(q1 + theta)*cos(q4))*sin(q6) + 0.00576044077232916*(sin(q4)*sin(q2 + q3)*cos(q1 + theta) + sin(q1 + theta)*cos(q4))*cos(q6) - 0.1685*sin(q2)*sin(q3)*cos(q1 + theta) - 0.22*sin(q2)*cos(q1 + theta) - 0.0594918242311549*sin(q5)*cos(q1 + theta)*cos(q2 + q3) + 0.1685*cos(q2)*cos(q3)*cos(q1 + theta)",
+      "0.000375757848777414*sin(q4)*sin(q6)*cos(q2 + q3) - 0.00576044077232917*sin(q4)*cos(q6)*cos(q2 + q3) + 0.00576044077232917*sin(q5)*sin(q6)*cos(q4)*cos(q2 + q3) - 0.0594918242311549*sin(q5)*sin(q2 + q3) + 0.000375757848777414*sin(q5)*cos(q4)*cos(q6)*cos(q2 + q3) - 0.00576044077232917*sin(q6)*sin(q2 + q3)*cos(q5) - 0.000375757848777414*sin(q2 + q3)*cos(q5)*cos(q6) + 0.1685*sin(q2 + q3) + 0.22*cos(q2) - 0.0594918242311549*cos(q4)*cos(q5)*cos(q2 + q3) + 0.2211"
+    ]
+  },
+  {
+    "link_a": "link4",
+    "link_b": "link_right",
+    "sphere_a_world_position": [
+      "1.0*x + 0.22*sin(q2)*sin(q1 + theta) + 0.033494662967517*sin(q4)*sin(q1 + theta)*sin(q2 + q3) - 0.00840021936486074*sin(q4)*cos(q1 + theta) - 0.00840021936486074*sin(q1 + theta)*sin(q2 + q3)*cos(q4) - 0.179499887722764*sin(q1 + theta)*cos(q2 + q3) - 0.033494662967517*cos(q4)*cos(q1 + theta)",
+      "1.0*y - 0.22*sin(q2)*cos(q1 + theta) - 0.00840021936486074*sin(q4)*sin(q1 + theta) - 0.033494662967517*sin(q4)*sin(q2 + q3)*cos(q1 + theta) - 0.033494662967517*sin(q1 + theta)*cos(q4) + 0.00840021936486074*sin(q2 + q3)*cos(q4)*cos(q1 + theta) + 0.179499887722764*cos(q1 + theta)*cos(q2 + q3)",
+      "0.033494662967517*sin(q4)*cos(q2 + q3) + 0.179499887722764*sin(q2 + q3) + 0.22*cos(q2) - 0.00840021936486074*cos(q4)*cos(q2 + q3) + 0.2211"
+    ],
+    "sphere_b_world_position": [
+      "0.5*g*(-((sin(q4)*cos(q1 + theta) + sin(q1 + theta)*sin(q2 + q3)*cos(q4))*sin(q5) + sin(q1 + theta)*cos(q5)*cos(q2 + q3))*sin(q6) + (sin(q4)*sin(q1 + theta)*sin(q2 + q3) - cos(q4)*cos(q1 + theta))*cos(q6)) + 1.0*x - 0.0126412040452752*((sin(q4)*cos(q1 + theta) + sin(q1 + theta)*sin(q2 + q3)*cos(q4))*sin(q5) + sin(q1 + theta)*cos(q5)*cos(q2 + q3))*sin(q6) + 0.0203020653019158*((sin(q4)*cos(q1 + theta) + sin(q1 + theta)*sin(q2 + q3)*cos(q4))*sin(q5) + sin(q1 + theta)*cos(q5)*cos(q2 + q3))*cos(q6) - 0.126489939193828*(sin(q4)*cos(q1 + theta) + sin(q1 + theta)*sin(q2 + q3)*cos(q4))*cos(q5) + 0.0203020653019158*(sin(q4)*sin(q1 + theta)*sin(q2 + q3) - cos(q4)*cos(q1 + theta))*sin(q6) + 0.0126412040452752*(sin(q4)*sin(q1 + theta)*sin(q2 + q3) - cos(q4)*cos(q1 + theta))*cos(q6) + 0.1685*sin(q2)*sin(q3)*sin(q1 + theta) + 0.22*sin(q2)*sin(q1 + theta) + 0.126489939193828*sin(q5)*sin(q1 + theta)*cos(q2 + q3) - 0.1685*sin(q1 + theta)*cos(q2)*cos(q3)",
+      "-0.5*g*(((sin(q4)*sin(q1 + theta) - sin(q2 + q3)*cos(q4)*cos(q1 + theta))*sin(q5) - cos(q5)*cos(q1 + theta)*cos(q2 + q3))*sin(q6) + (sin(q4)*sin(q2 + q3)*cos(q1 + theta) + sin(q1 + theta)*cos(q4))*cos(q6)) + 1.0*y - 0.0126412040452752*((sin(q4)*sin(q1 + theta) - sin(q2 + q3)*cos(q4)*cos(q1 + theta))*sin(q5) - cos(q5)*cos(q1 + theta)*cos(q2 + q3))*sin(q6) + 0.0203020653019158*((sin(q4)*sin(q1 + theta) - sin(q2 + q3)*cos(q4)*cos(q1 + theta))*sin(q5) - cos(q5)*cos(q1 + theta)*cos(q2 + q3))*cos(q6) - 0.126489939193828*(sin(q4)*sin(q1 + theta) - sin(q2 + q3)*cos(q4)*cos(q1 + theta))*cos(q5) - 0.0203020653019158*(sin(q4)*sin(q2 + q3)*cos(q1 + theta) + sin(q1 + theta)*cos(q4))*sin(q6) - 0.0126412040452752*(sin(q4)*sin(q2 + q3)*cos(q1 + theta) + sin(q1 + theta)*cos(q4))*cos(q6) - 0.1685*sin(q2)*sin(q3)*cos(q1 + theta) - 0.22*sin(q2)*cos(q1 + theta) - 0.126489939193828*sin(q5)*cos(q1 + theta)*cos(q2 + q3) + 0.1685*cos(q2)*cos(q3)*cos(q1 + theta)",
+      "0.5*g*((-sin(q5)*cos(q4)*cos(q2 + q3) + sin(q2 + q3)*cos(q5))*sin(q6) + sin(q4)*cos(q6)*cos(q2 + q3)) + 0.0126412040452752*(-sin(q5)*cos(q4)*cos(q2 + q3) + sin(q2 + q3)*cos(q5))*sin(q6) - 0.0203020653019158*(-sin(q5)*cos(q4)*cos(q2 + q3) + sin(q2 + q3)*cos(q5))*cos(q6) + 0.1685*sin(q2)*cos(q3) + 0.1685*sin(q3)*cos(q2) + 0.0203020653019158*sin(q4)*sin(q6)*cos(q2 + q3) + 0.0126412040452752*sin(q4)*cos(q6)*cos(q2 + q3) - 0.126489939193828*sin(q5)*sin(q2 + q3) + 0.22*cos(q2) - 0.126489939193828*cos(q4)*cos(q5)*cos(q2 + q3) + 0.2211"
+    ]
+  },
+  {
+    "link_a": "link4",
+    "link_b": "link_left",
+    "sphere_a_world_position": [
+      "1.0*x + 0.22*sin(q2)*sin(q1 + theta) - 0.0265053370304592*sin(q4)*sin(q1 + theta)*sin(q2 + q3) - 0.00839999897336408*sin(q4)*cos(q1 + theta) - 0.00839999897336408*sin(q1 + theta)*sin(q2 + q3)*cos(q4) - 0.179499446937342*sin(q1 + theta)*cos(q2 + q3) + 0.0265053370304592*cos(q4)*cos(q1 + theta)",
+      "1.0*y - 0.22*sin(q2)*cos(q1 + theta) - 0.00839999897336408*sin(q4)*sin(q1 + theta) + 0.0265053370304592*sin(q4)*sin(q2 + q3)*cos(q1 + theta) + 0.0265053370304592*sin(q1 + theta)*cos(q4) + 0.00839999897336408*sin(q2 + q3)*cos(q4)*cos(q1 + theta) + 0.179499446937342*cos(q1 + theta)*cos(q2 + q3)",
+      "-0.0265053370304592*sin(q4)*cos(q2 + q3) + 0.179499446937342*sin(q2 + q3) + 0.22*cos(q2) - 0.00839999897336408*cos(q4)*cos(q2 + q3) + 0.2211"
+    ],
+    "sphere_b_world_position": [
+      "0.5*g*(((sin(q4)*cos(q1 + theta) + sin(q1 + theta)*sin(q2 + q3)*cos(q4))*sin(q5) + sin(q1 + theta)*cos(q5)*cos(q2 + q3))*sin(q6) - (sin(q4)*sin(q1 + theta)*sin(q2 + q3) - cos(q4)*cos(q1 + theta))*cos(q6)) + 1.0*x + 0.031913330566173*((sin(q4)*cos(q1 + theta) + sin(q1 + theta)*sin(q2 + q3)*cos(q4))*sin(q5) + sin(q1 + theta)*cos(q5)*cos(q2 + q3))*sin(q6) - 0.0277799173217469*((sin(q4)*cos(q1 + theta) + sin(q1 + theta)*sin(q2 + q3)*cos(q4))*sin(q5) + sin(q1 + theta)*cos(q5)*cos(q2 + q3))*cos(q6) - 0.126490676606159*(sin(q4)*cos(q1 + theta) + sin(q1 + theta)*sin(q2 + q3)*cos(q4))*cos(q5) - 0.0277799173217469*(sin(q4)*sin(q1 + theta)*sin(q2 + q3) - cos(q4)*cos(q1 + theta))*sin(q6) - 0.031913330566173*(sin(q4)*sin(q1 + theta)*sin(q2 + q3) - cos(q4)*cos(q1 + theta))*cos(q6) + 0.1685*sin(q2)*sin(q3)*sin(q1 + theta) + 0.22*sin(q2)*sin(q1 + theta) + 0.126490676606159*sin(q5)*sin(q1 + theta)*cos(q2 + q3) - 0.1685*sin(q1 + theta)*cos(q2)*cos(q3)",
+      "0.5*g*(((sin(q4)*sin(q1 + theta) - sin(q2 + q3)*cos(q4)*cos(q1 + theta))*sin(q5) - cos(q5)*cos(q1 + theta)*cos(q2 + q3))*sin(q6) + (sin(q4)*sin(q2 + q3)*cos(q1 + theta) + sin(q1 + theta)*cos(q4))*cos(q6)) + 1.0*y + 0.031913330566173*((sin(q4)*sin(q1 + theta) - sin(q2 + q3)*cos(q4)*cos(q1 + theta))*sin(q5) - cos(q5)*cos(q1 + theta)*cos(q2 + q3))*sin(q6) - 0.0277799173217469*((sin(q4)*sin(q1 + theta) - sin(q2 + q3)*cos(q4)*cos(q1 + theta))*sin(q5) - cos(q5)*cos(q1 + theta)*cos(q2 + q3))*cos(q6) - 0.126490676606159*(sin(q4)*sin(q1 + theta) - sin(q2 + q3)*cos(q4)*cos(q1 + theta))*cos(q5) + 0.0277799173217469*(sin(q4)*sin(q2 + q3)*cos(q1 + theta) + sin(q1 + theta)*cos(q4))*sin(q6) + 0.031913330566173*(sin(q4)*sin(q2 + q3)*cos(q1 + theta) + sin(q1 + theta)*cos(q4))*cos(q6) - 0.1685*sin(q2)*sin(q3)*cos(q1 + theta) - 0.22*sin(q2)*cos(q1 + theta) - 0.126490676606159*sin(q5)*cos(q1 + theta)*cos(q2 + q3) + 0.1685*cos(q2)*cos(q3)*cos(q1 + theta)",
+      "0.5*g*((sin(q5)*cos(q4)*cos(q2 + q3) - sin(q2 + q3)*cos(q5))*sin(q6) - sin(q4)*cos(q6)*cos(q2 + q3)) + 0.031913330566173*(sin(q5)*cos(q4)*cos(q2 + q3) - sin(q2 + q3)*cos(q5))*sin(q6) - 0.0277799173217469*(sin(q5)*cos(q4)*cos(q2 + q3) - sin(q2 + q3)*cos(q5))*cos(q6) + 0.1685*sin(q2)*cos(q3) + 0.1685*sin(q3)*cos(q2) - 0.0277799173217469*sin(q4)*sin(q6)*cos(q2 + q3) - 0.031913330566173*sin(q4)*cos(q6)*cos(q2 + q3) - 0.126490676606159*sin(q5)*sin(q2 + q3) + 0.22*cos(q2) - 0.126490676606159*cos(q4)*cos(q5)*cos(q2 + q3) + 0.2211"
+    ]
+  }
+]

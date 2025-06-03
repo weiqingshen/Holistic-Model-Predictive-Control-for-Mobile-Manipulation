@@ -1,0 +1,277 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-f59bbbf06375330ceb40.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "mybot",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "BFMTk_base::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BFMTk_base-Debug-efbefb61df9149048ba7.json",
+					"name" : "BFMTk_base",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "BFPIECE_base::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BFPIECE_base-Debug-e99584ae09319b364b6e.json",
+					"name" : "BFPIECE_base",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "BiEST_base::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BiEST_base-Debug-c25f314c53fd16fae15c.json",
+					"name" : "BiEST_base",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "BiTRRT_base::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BiTRRT_base-Debug-cc964a78ebc5af1158c2.json",
+					"name" : "BiTRRT_base",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "PRMstar_base::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-PRMstar_base-Debug-f0748ed0570156a14c3d.json",
+					"name" : "PRMstar_base",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SPARStwo_base::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SPARStwo_base-Debug-36076623a011dddc1555.json",
+					"name" : "SPARStwo_base",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arm_execute_circle::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arm_execute_circle-Debug-d445f95963460209b259.json",
+					"name" : "arm_execute_circle",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arm_execute_circle_trajectory::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arm_execute_circle_trajectory-Debug-d430632e5aa90b9f5dc6.json",
+					"name" : "arm_execute_circle_trajectory",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arm_execute_total_trajectory::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arm_execute_total_trajectory-Debug-152d4f3c1a84e9b2ecb5.json",
+					"name" : "arm_execute_total_trajectory",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arm_execute_total_trajectory_final::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arm_execute_total_trajectory_final-Debug-4368c0a644fbfc1121c1.json",
+					"name" : "arm_execute_total_trajectory_final",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dynamic_grasping::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dynamic_grasping-Debug-ae933bb6252ea54c2ef1.json",
+					"name" : "dynamic_grasping",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "end_effector_feedback::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-end_effector_feedback-Debug-3e7e4ebe201c9b65d18c.json",
+					"name" : "end_effector_feedback",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "move_group_interface::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-move_group_interface-Debug-efe117c3334d19f92ab6.json",
+					"name" : "move_group_interface",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "move_trajectory_buffer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-move_trajectory_buffer-Debug-fcf7503689b009d3a505.json",
+					"name" : "move_trajectory_buffer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mpc_based_dynamic::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mpc_based_dynamic-Debug-0f3e6bbbb5a8265ab560.json",
+					"name" : "mpc_based_dynamic",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mpc_based_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mpc_based_test-Debug-6284eff367a5a021caef.json",
+					"name" : "mpc_based_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mybot_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mybot_uninstall-Debug-a37dbd5079cbc335af91.json",
+					"name" : "mybot_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rrt_base::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rrt_base-Debug-20b2d5b5faea0189c255.json",
+					"name" : "rrt_base",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "task1_hmpc::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-task1_hmpc-Debug-22bcf3b1795ccab585ae.json",
+					"name" : "task1_hmpc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "task2_hmpc::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-task2_hmpc-Debug-515d725871a0de9bf359.json",
+					"name" : "task2_hmpc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "task3_PRMstar::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-task3_PRMstar-Debug-8f35eec107b25feeebce.json",
+					"name" : "task3_PRMstar",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "task3_compare::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-task3_compare-Debug-8372c9e7e12b3b50b232.json",
+					"name" : "task3_compare",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "task3_hmpc::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-task3_hmpc-Debug-4d5aa0ccbbacac0795b4.json",
+					"name" : "task3_hmpc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "trajectory_buffer_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-trajectory_buffer_node-Debug-fd88cdb596be54b9c42c.json",
+					"name" : "trajectory_buffer_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Debug-03ef3f88a568240cf89d.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/fins/myrobot_move/src/mybot/cmake-build-debug",
+		"source" : "/home/fins/myrobot_move/src/mybot"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
