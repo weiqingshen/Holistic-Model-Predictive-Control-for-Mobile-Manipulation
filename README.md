@@ -75,12 +75,40 @@ ros2 launch mybot task1_hmpc.launch.py
 ros2 run pose_publisher pose_publisher_task1_random
 ```
 
-## Demo
+#### Demo
 
-### Simulation vs Real Robot Comparison
+### Task Demonstrations
+
+Our holistic model predictive control approach is demonstrated across multiple manipulation tasks, comparing simulation results with real robot performance.
+
+#### Task 1: Basic Mobile Manipulation
 
 <div align="center">
- <img src="assets/task3_v2.gif" alt="HMPC Simulation vs Real Robot Demo" width="80%">
+ <img src="assets/task1.gif" alt="Task 1 - Basic Mobile Manipulation" width="80%">
 </div>
 
-*Demonstration of holistic model predictive control for mobile manipulation, comparing simulation results with real robot performance.*
+*Task 1: Fundamental mobile manipulation scenario demonstrating coordinated base and arm motion.*
+
+#### Task 2: Advanced Manipulation
+
+<div align="center">
+ <img src="assets/task2.gif" alt="Task 2 - Advanced Manipulation" width="80%">
+</div>
+
+*Task 2: Complex manipulation task showcasing advanced coordination between mobile base and manipulator.*
+
+#### Task 3: Precision Control (Version 1)
+
+<div align="center">
+ <img src="assets/task3_v1.gif" alt="Task 3 v1 - Precision Control" width="80%">
+</div>
+
+*Task 3 Version 1: High-precision manipulation demonstrating the accuracy of our holistic MPC approach.*
+
+#### Task 3: Precision Control (Version 2)
+
+<div align="center">
+ <img src="assets/task3_v2.gif" alt="Task 3 v2 - Precision Control" width="80%">
+</div>
+
+*Task 3 Version 2: Enhanced precision control with improved performance metrics.*
