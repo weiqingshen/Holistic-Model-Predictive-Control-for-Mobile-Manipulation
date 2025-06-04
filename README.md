@@ -1,6 +1,6 @@
 # Holistic Model Predictive Control for Mobile Manipulation
 
-This repository contains the source code for our work holistic model predictive control for mobile manipulation.
+This repository contains the source code for our work on holistic model predictive control for mobile manipulation.
 
 ## Prerequisites
 
@@ -60,55 +60,61 @@ echo "source ~/hmpc_ws/install/setup.bash" >> ~/.bashrc
 source ~/.bashrc
 ```
 
-## ## Quick Start
+## Quick Start
 
-### Running the Basic Example
+### Task 1: Active Obstacle Avoidance
+
+<div align="center">
+ <img src="assets/task1.gif" alt="Task 1 - Active Obstacle Avoidance" width="80%">
+</div>
 
 ```bash
 # Terminal 1: Launch Rviz
 ros2 launch mybot hmpc_demo.launch.py
 
-# Terminal 2: 
+# Terminal 2: Start Task 1 controller
 ros2 launch mybot task1_hmpc.launch.py
 
-# Terminal 3: Send test commands
+# Terminal 3: Send random pose commands
 ros2 run pose_publisher pose_publisher_task1_random
 ```
 
-#### Demo
+*Task 1 demonstrates active obstacle avoidance capabilities where the mobile manipulator navigates through dynamic environments while avoiding obstacles in real-time.*
 
-### Task Demonstrations
-
-Our holistic model predictive control approach is demonstrated across multiple manipulation tasks, comparing simulation results with real robot performance.
-
-#### Task 1: Basic Mobile Manipulation
+### Task 2: Multi-Task Modular Demonstration
 
 <div align="center">
- <img src="assets/task1.gif" alt="Task 1 - Basic Mobile Manipulation" width="80%">
+ <img src="assets/task2.gif" alt="Task 2 - Multi-Task Modular Demonstration" width="80%">
 </div>
 
-*Task 1: Fundamental mobile manipulation scenario demonstrating coordinated base and arm motion.*
+```bash
+# Terminal 1: Launch Rviz
+ros2 launch mybot hmpc_demo.launch.py
 
-#### Task 2: Advanced Manipulation
+# Terminal 2: Start Task 2 controller
+ros2 launch mybot task2_hmpc.launch.py
+
+# Terminal 3: Send task commands
+ros2 run pose_publisher pose_publisher_task2
+```
+
+*Task 2 showcases multi-task modular capabilities, demonstrating how the system can seamlessly switch between different manipulation tasks while maintaining coordination between the mobile base and manipulator.*
+
+### Task 3: Dynamic Target Following
 
 <div align="center">
- <img src="assets/task2.gif" alt="Task 2 - Advanced Manipulation" width="80%">
+ <img src="assets/task3_v1.gif" alt="Task 3 - Dynamic Target Following" width="80%">
 </div>
 
-*Task 2: Complex manipulation task showcasing advanced coordination between mobile base and manipulator.*
+```bash
+# Terminal 1: Launch Rviz
+ros2 launch mybot hmpc_demo.launch.py
 
-#### Task 3: Precision Control (Version 1)
+# Terminal 2: Start Task 3 controller
+ros2 launch mybot task3_hmpc.launch.py
 
-<div align="center">
- <img src="assets/task3_v1.gif" alt="Task 3 v1 - Precision Control" width="80%">
-</div>
+# Terminal 3: Start dynamic following
+ros2 run pose_publisher pose_publisher_task3_follow
+```
 
-*Task 3 Version 1: High-precision manipulation demonstrating the accuracy of our holistic MPC approach.*
-
-#### Task 3: Precision Control (Version 2)
-
-<div align="center">
- <img src="assets/task3_v2.gif" alt="Task 3 v2 - Precision Control" width="80%">
-</div>
-
-*Task 3 Version 2: Enhanced precision control with improved performance metrics.*
+*Task 3 demonstrates dynamic target following where the mobile manipulator tracks and follows moving targets while maintaining precise end-effector positioning.*
