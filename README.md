@@ -80,7 +80,7 @@ ros2 run pose_publisher pose_publisher_task1_random
 ### Simulation vs Real Robot Comparison
 
 <div align="center">
- <img src="assets/task3.gif" alt="HMPC Simulation vs Real Robot Demo" width="80%">
+ <img src="assets/task3_v2.gif" alt="HMPC Simulation vs Real Robot Demo" width="80%">
 </div>
 
 *Demonstration of holistic model predictive control for mobile manipulation, comparing simulation results with real robot performance.*
